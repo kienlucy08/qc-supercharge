@@ -1,0 +1,616 @@
+[
+    {
+  "eventType": "addData",
+  "feature": {
+    "attributes": {
+      "additonal_site_count": "1",
+      "confirm_org": "TestOrg",
+      "cop_style": "cop",
+      "customer": "other",
+      "customer_label": "Null",
+      "customer_other": "Null",
+      "customer_site_id": "SA-null",
+      "customer_site_name": "Nullname",
+      "datetime_updated": "0715251231",
+      "email": "lkien@fieldsync.io",
+      "enb_name": "Nullname",
+      "eus_appointment_number": "SA-null",
+      "flag_survey_bin": "no",
+      "gamma_photo_count": "1",
+      "inspection_technician": "Lucy Kien",
+      "organization_id": "3daa1043-eb08-4630-96f2-c9310ab210ac",
+      "organization_url": "organization_id?url=https://app.fieldsync.io/api/v0/organization&email=lkien@fieldsync.io",
+      "pim_sweep_testing_selection": "no",
+      "resolution_type_selection": "ericsson_hardware",
+      "return_visit_needed": "yes",
+      "sector_selection": "gamma",
+      "site_signage_count": "1",
+      "site_visit_datetime": 1752604260000,
+      "structure_owner": "Null",
+      "structure_owner_bin": "yes",
+      "survey_purpose": "cop",
+      "survey_type": "cop_cop",
+      "temperature_auto": 85.05,
+      "username": "lkien_fieldsync",
+      "weather_auto": "Clear",
+      "weather_city": "Redlands",
+      "weather_lat": 34.06268970248063,
+      "weather_lon": -117.1997991556928,
+      "wind_direction_auto": 269,
+      "wind_speed_auto": 5.99,
+      "work_completed": "yes",
+      "work_order": "SA-null",
+      "globalid": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}"
+    },
+    "attachments": {
+      "tech_signature": [
+        {
+          "globalId": "{191D75AC-7DEB-42A9-AA15-3825ED902DC1}",
+          "parentGlobalId": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+          "name": "tech_signature-20250715-183230.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "tech_signature",
+          "size": 6314,
+          "id": 44,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_646101861a0b402895ffd45937cdf553_form/FeatureServer/0/2/attachments/44"
+        }
+      ]
+    },
+    "geometry": {
+      "x": -117.1997991556928,
+      "y": 34.06268970248063,
+      "spatialReference": {
+        "wkid": 4326
+      }
+    },
+    "result": {
+      "globalId": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+      "objectId": 2,
+      "success": true,
+      "uniqueId": 2
+    },
+    "layerInfo": {
+      "id": 0,
+      "name": "Form_2"
+    },
+    "repeats": {
+      "rru_data_gamma_group_s": [
+        {
+          "attributes": {
+            "gamma_unit_idx": 1,
+            "unit_sectors_gamma": "gamma",
+            "parentglobalid": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+            "globalid": "{6EB2071B-8E34-452C-87EB-D7E9CAFC9F98}"
+          },
+          "result": {
+            "globalId": "{6EB2071B-8E34-452C-87EB-D7E9CAFC9F98}",
+            "objectId": 3,
+            "success": true,
+            "uniqueId": 3
+          },
+          "layerInfo": {
+            "id": 3,
+            "name": "rru_data_gamma_group_s"
+          }
+        }
+      ],
+      "catch_all_s": [
+        {
+          "attributes": {
+            "cap_count": "1",
+            "parentglobalid": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+            "globalid": "{6F7E13A9-D7E9-45BF-B0C1-CE8AFC5DD2F9}"
+          },
+          "result": {
+            "globalId": "{6F7E13A9-D7E9-45BF-B0C1-CE8AFC5DD2F9}",
+            "objectId": 5,
+            "success": true,
+            "uniqueId": 5
+          },
+          "layerInfo": {
+            "id": 9,
+            "name": "catch_all_s"
+          }
+        }
+      ]
+    }
+  },
+  "applyEdits": [
+    {
+      "id": 0,
+      "attachments": {
+        "adds": [
+          {
+            "uploadId": "665448531a9240189d039dbe04ee52c0",
+            "globalId": "{191D75AC-7DEB-42A9-AA15-3825ED902DC1}",
+            "parentGlobalId": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+            "name": "tech_signature-20250715-183230.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "tech_signature",
+            "size": 6314
+          }
+        ]
+      },
+      "adds": [
+        {
+          "attributes": {
+            "additonal_site_count": "1",
+            "confirm_org": "TestOrg",
+            "cop_style": "cop",
+            "customer": "other",
+            "customer_label": "Null",
+            "customer_other": "Null",
+            "customer_site_id": "SA-null",
+            "customer_site_name": "Nullname",
+            "datetime_updated": "0715251231",
+            "email": "lkien@fieldsync.io",
+            "enb_name": "Nullname",
+            "eus_appointment_number": "SA-null",
+            "flag_survey_bin": "no",
+            "gamma_photo_count": "1",
+            "inspection_technician": "Lucy Kien",
+            "organization_id": "3daa1043-eb08-4630-96f2-c9310ab210ac",
+            "organization_url": "organization_id?url=https://app.fieldsync.io/api/v0/organization&email=lkien@fieldsync.io",
+            "pim_sweep_testing_selection": "no",
+            "resolution_type_selection": "ericsson_hardware",
+            "return_visit_needed": "yes",
+            "sector_selection": "gamma",
+            "site_signage_count": "1",
+            "site_visit_datetime": 1752604260000,
+            "structure_owner": "Null",
+            "structure_owner_bin": "yes",
+            "survey_purpose": "cop",
+            "survey_type": "cop_cop",
+            "temperature_auto": 85.05,
+            "username": "lkien_fieldsync",
+            "weather_auto": "Clear",
+            "weather_city": "Redlands",
+            "weather_lat": 34.06268970248063,
+            "weather_lon": -117.1997991556928,
+            "wind_direction_auto": 269,
+            "wind_speed_auto": 5.99,
+            "work_completed": "yes",
+            "work_order": "SA-null",
+            "globalid": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}"
+          },
+          "attachments": {
+            "tech_signature": [
+              {
+                "globalId": "{191D75AC-7DEB-42A9-AA15-3825ED902DC1}",
+                "parentGlobalId": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+                "name": "tech_signature-20250715-183230.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "tech_signature",
+                "size": 6314,
+                "id": 44,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_646101861a0b402895ffd45937cdf553_form/FeatureServer/0/2/attachments/44"
+              }
+            ]
+          },
+          "geometry": {
+            "x": -117.1997991556928,
+            "y": 34.06268970248063,
+            "spatialReference": {
+              "wkid": 4326
+            }
+          },
+          "result": {
+            "globalId": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+            "objectId": 2,
+            "success": true,
+            "uniqueId": 2
+          },
+          "layerInfo": {
+            "id": 0,
+            "name": "Form_2"
+          },
+          "repeats": {
+            "rru_data_gamma_group_s": [
+              {
+                "attributes": {
+                  "gamma_unit_idx": 1,
+                  "unit_sectors_gamma": "gamma",
+                  "parentglobalid": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+                  "globalid": "{6EB2071B-8E34-452C-87EB-D7E9CAFC9F98}"
+                },
+                "result": {
+                  "globalId": "{6EB2071B-8E34-452C-87EB-D7E9CAFC9F98}",
+                  "objectId": 3,
+                  "success": true,
+                  "uniqueId": 3
+                },
+                "layerInfo": {
+                  "id": 3,
+                  "name": "rru_data_gamma_group_s"
+                }
+              }
+            ],
+            "catch_all_s": [
+              {
+                "attributes": {
+                  "cap_count": "1",
+                  "parentglobalid": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+                  "globalid": "{6F7E13A9-D7E9-45BF-B0C1-CE8AFC5DD2F9}"
+                },
+                "result": {
+                  "globalId": "{6F7E13A9-D7E9-45BF-B0C1-CE8AFC5DD2F9}",
+                  "objectId": 5,
+                  "success": true,
+                  "uniqueId": 5
+                },
+                "layerInfo": {
+                  "id": 9,
+                  "name": "catch_all_s"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 0,
+        "name": "Form_2",
+        "type": "Feature Layer",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 1,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_alpha_group_s",
+            "relatedTableId": 1,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 2,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_beta_group_s",
+            "relatedTableId": 2,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 3,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_gamma_group_s",
+            "relatedTableId": 3,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 4,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_delta_group_s",
+            "relatedTableId": 4,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 5,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_epsilon_group_s",
+            "relatedTableId": 5,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 6,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_zeta_group_s",
+            "relatedTableId": 6,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 7,
+            "keyField": "globalid",
+            "name": "Form_2_sweep_testing_group_s",
+            "relatedTableId": 7,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 8,
+            "keyField": "globalid",
+            "name": "Form_2_pim_testing_group_s",
+            "relatedTableId": 8,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 9,
+            "keyField": "globalid",
+            "name": "Form_2_catch_all_s",
+            "relatedTableId": 9,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 10,
+            "keyField": "globalid",
+            "name": "Form_2_flags_s",
+            "relatedTableId": 10,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "adds": [
+        {
+          "attributes": {
+            "gamma_unit_idx": 1,
+            "unit_sectors_gamma": "gamma",
+            "parentglobalid": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+            "globalid": "{6EB2071B-8E34-452C-87EB-D7E9CAFC9F98}"
+          },
+          "result": {
+            "globalId": "{6EB2071B-8E34-452C-87EB-D7E9CAFC9F98}",
+            "objectId": 3,
+            "success": true,
+            "uniqueId": 3
+          },
+          "layerInfo": {
+            "id": 3,
+            "name": "rru_data_gamma_group_s"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 3,
+        "name": "rru_data_gamma_group_s",
+        "type": "Table",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 3,
+            "keyField": "parentglobalid",
+            "name": "Form_2_rru_data_gamma_group_s",
+            "relatedTableId": 0,
+            "role": "esriRelRoleDestination",
+            "keyFieldInfo": {
+              "alias": "ParentGlobalID",
+              "defaultValue": null,
+              "editable": true,
+              "length": 38,
+              "name": "parentglobalid",
+              "nullable": true,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGUID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "adds": [
+        {
+          "attributes": {
+            "cap_count": "1",
+            "parentglobalid": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+            "globalid": "{6F7E13A9-D7E9-45BF-B0C1-CE8AFC5DD2F9}"
+          },
+          "result": {
+            "globalId": "{6F7E13A9-D7E9-45BF-B0C1-CE8AFC5DD2F9}",
+            "objectId": 5,
+            "success": true,
+            "uniqueId": 5
+          },
+          "layerInfo": {
+            "id": 9,
+            "name": "catch_all_s"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 9,
+        "name": "catch_all_s",
+        "type": "Table",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 9,
+            "keyField": "parentglobalid",
+            "name": "Form_2_catch_all_s",
+            "relatedTableId": 0,
+            "role": "esriRelRoleDestination",
+            "keyFieldInfo": {
+              "alias": "ParentGlobalID",
+              "defaultValue": null,
+              "editable": true,
+              "length": 38,
+              "name": "parentglobalid",
+              "nullable": true,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGUID"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "response": [
+    {
+      "addResults": [
+        {
+          "globalId": "{C0736866-23FD-4C8F-A6C7-7DC6805A2421}",
+          "objectId": 2,
+          "success": true,
+          "uniqueId": 2
+        }
+      ],
+      "attachments": {
+        "addResults": [
+          {
+            "globalId": "{191D75AC-7DEB-42A9-AA15-3825ED902DC1}",
+            "objectId": 44,
+            "success": true
+          }
+        ],
+        "deleteResults": [],
+        "updateResults": []
+      },
+      "id": 0
+    },
+    {
+      "addResults": [
+        {
+          "globalId": "{6EB2071B-8E34-452C-87EB-D7E9CAFC9F98}",
+          "objectId": 3,
+          "success": true,
+          "uniqueId": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "addResults": [
+        {
+          "globalId": "{6F7E13A9-D7E9-45BF-B0C1-CE8AFC5DD2F9}",
+          "objectId": 5,
+          "success": true,
+          "uniqueId": 5
+        }
+      ],
+      "id": 9
+    }
+  ],
+  "surveyInfo": {
+    "formItemId": "12cfc1ac99184253875c5d759e6a75b5",
+    "formTitle": "COP Survey",
+    "serviceItemId": "1c593c5fabf44bf89e1a9d205fb50572",
+    "serviceUrl": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_646101861a0b402895ffd45937cdf553_form/FeatureServer"
+  },
+  "portalInfo": {
+    "url": "https://www.arcgis.com",
+    "token": "3NKHt6i2urmWtqOuugvr9Q30mgT9dtHlmoZXf7RFSCPJXdSkiVbNtVa-TEKLy1_UxPG7MPgOj8H5tPTeAodSnuJAc9s4UWReHevy1CdG7FxSX8dSpU8TbHEx4FB-KDjTRO-4sbnqUgGFOHzwCh5-UdKe7k_vJSWkD7E6DWtjILLYZ90sh86T5hQezd5FMmuIM9ilc2763K19XGRXZ7MOqJRUEXIFLZPeQruLn7m0nfWaYt_Scm20GKqYb6tsLzf3"
+  },
+  "userInfo": {
+    "username": "lkien_fieldsync",
+    "firstName": "Lucy",
+    "lastName": "Kien",
+    "fullName": "Lucy Kien",
+    "email": "lkien@fieldsync.io"
+  }
+}
+]

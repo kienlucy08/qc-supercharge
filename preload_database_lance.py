@@ -190,7 +190,7 @@ def load_bot_instructions(table):
 
 def main():
     table = create_or_reset_collection()
-    preload_fields_from_json(table, json_source="example.json")
+    preload_fields_from_json(table, json_source="test.json")
     load_bot_instructions(table)
 
 if __name__ == "__main__":

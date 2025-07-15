@@ -12,7 +12,7 @@ import pandas as pd
 from openai import OpenAI
 import lancedb
 from sentence_transformers import SentenceTransformer
-from query_database import get_field_value_from_json, query_nullable_fields, get_fields_with_null_values, connect_to_collection, query_collection
+from query_database import get_field_value_from_json, find_null_like_fields_from_table, find_null_like_fields, connect_to_collection, query_collection
 
 # Initialize clients
 client = OpenAI()
@@ -94,13 +94,13 @@ def run_qc_chatbot():
             break
 
         if "null values" in user_input.lower() or "fields that are null" in user_input.lower():
-            results_df = query_nullable_fields(table)
-            if results_df.empty:
+            results_df = find_null_like_fields_from_table(table)
+            if not results_df:
                 print("QC Assistant Bot: I couldn't find any fields with null values.")
             else:
                 print("\nQC Assistant Bot: Based on the schema, these fields contain null values:")
-                for idx, row in results_df.iterrows():
-                    print(f"- {row['field_name']}")
+                for path in results_df:
+                    print(f"{path} - {row['field_name']}")
             continue
 
         if "value" in user_input.lower() or "what is" in user_input.lower():
