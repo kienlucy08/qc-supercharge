@@ -1,0 +1,1455 @@
+{
+  "eventType": "addData",
+  "feature": {
+    "attributes": {
+      "additonal_site_count": "2",
+      "alpha_photo_count": "1",
+      "beta_photo_count": "1",
+      "confirm_org": "FieldSync",
+      "cop_style": "ericsson",
+      "customer": "other",
+      "customer_label": "Lucy",
+      "customer_other": "Lucy",
+      "customer_site_id": "SA-testpurpose",
+      "customer_site_name": "Purpose Test",
+      "datetime_updated": "0619251035",
+      "delta_photo_count": "1",
+      "email": "lkien@fieldsync.io",
+      "enb_name": "Purpose Test",
+      "epsilon_photo_count": "1",
+      "eus_appointment_number": "SA-testpurpose",
+      "gamma_photo_count": "1",
+      "inspection_technician": "Lucy Kien",
+      "organization_id": "06f64dce-6fde-4a49-bba8-ed9a22498516",
+      "organization_url": "organization_id?url=https://test.fieldsync.io/api/v0/organization&email=lkien@fieldsync.io",
+      "pim_sweep_testing_selection": "no",
+      "resolution_type_selection": "ericsson_hardware",
+      "return_visit_needed": "yes",
+      "sector_selection": "alpha,gamma,beta,delta,zeta,epsilon",
+      "site_signage_count": "2",
+      "site_visit_datetime": 1750350929920,
+      "structure_owner": "Lucy",
+      "structure_owner_bin": "yes",
+      "survey_purpose": "cop",
+      "survey_type": "cop_ericsson",
+      "temperature_auto": 84.74,
+      "username": "lkien_fieldsync",
+      "weather_auto": "Clear",
+      "weather_city": "Longmont",
+      "weather_lat": 40.15291468650682,
+      "weather_lon": -105.10677124482928,
+      "wind_direction_auto": 180,
+      "wind_speed_auto": 6.91,
+      "work_completed": "yes",
+      "work_order": "SA-testpurpose",
+      "zeta_photo_count": "1",
+      "globalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}"
+    },
+    "attachments": {
+      "glamour_photo": [
+        {
+          "globalId": "{D0A5DE3E-4936-4C6B-9F92-80D4FDBCA3EF}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "glamour_photo-20250619-163605.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "glamour_photo",
+          "size": 204515,
+          "id": 218,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/218"
+        }
+      ],
+      "log_book_entry_photo": [
+        {
+          "globalId": "{03B9BDFD-596A-4823-BACB-7ECDC1D1F7AB}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "log_book_entry_photo-20250619-163607.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "log_book_entry_photo",
+          "size": 236303,
+          "id": 219,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/219"
+        }
+      ],
+      "site_signage_photo": [
+        {
+          "globalId": "{0393E7AF-3713-41A8-B235-A358AC1C5AB5}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "site_signage_photo1_20250619-103611.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "site_signage_photo",
+          "size": 149713,
+          "id": 220,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/220"
+        }
+      ],
+      "site_fccnum_photo": [
+        {
+          "globalId": "{398B04A5-A237-4A7D-826A-7AAB45F3B635}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "site_fccnum_photo-20250619-163614.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "site_fccnum_photo",
+          "size": 191393,
+          "id": 221,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/221"
+        }
+      ],
+      "rbs_cabinet_overview_photo": [
+        {
+          "globalId": "{7C0687B8-12DD-46B4-9EAD-F0F3B9CC04DD}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "rbs_cabinet_overview_photo-20250619-163617.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "rbs_cabinet_overview_photo",
+          "size": 213732,
+          "id": 222,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/222"
+        }
+      ],
+      "rbs_cabinet_condition_photo": [
+        {
+          "globalId": "{31B98530-DF5F-46EB-9434-FF3C349882A0}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "rbs_cabinet_condition_photo-20250619-163623.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "rbs_cabinet_condition_photo",
+          "size": 192126,
+          "id": 223,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/223"
+        }
+      ],
+      "crane_photo": [
+        {
+          "globalId": "{04885D95-2D7D-4D74-86C5-E55D63917C9C}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "crane_photo-20250619-163626.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "crane_photo",
+          "size": 193867,
+          "id": 224,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/224"
+        }
+      ],
+      "rru_return_label_photo": [
+        {
+          "globalId": "{011C2061-AA5F-471A-87A6-622342E7EC80}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "rru_return_label_photo-20250619-163630.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "rru_return_label_photo",
+          "size": 227696,
+          "id": 225,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/225"
+        }
+      ],
+      "additional_site_photo": [
+        {
+          "globalId": "{CABEDBF3-2008-424B-90FE-CE353A5FE902}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "additional_site_photo1_20250619-103633.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "additional_site_photo",
+          "size": 194208,
+          "id": 226,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/226"
+        }
+      ],
+      "tech_signature": [
+        {
+          "globalId": "{AEEA3BA7-54BA-445F-8ECE-5D3605F25578}",
+          "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "name": "tech_signature-20250619-163657.jpg",
+          "contentType": "image/jpeg",
+          "keywords": "tech_signature",
+          "size": 6317,
+          "id": 227,
+          "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/227"
+        }
+      ]
+    },
+    "geometry": {
+      "x": -105.10677124482928,
+      "y": 40.15291468650682,
+      "spatialReference": {
+        "wkid": 4326
+      }
+    },
+    "result": {
+      "globalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+      "objectId": 16,
+      "success": true,
+      "uniqueId": 16
+    },
+    "layerInfo": {
+      "id": 0,
+      "name": "Form_2"
+    },
+    "repeats": {
+      "rru_data_alpha_group_s": [
+        {
+          "attributes": {
+            "alpha_unit_idx": 1,
+            "unit_sectors_alpha": "alpha",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{92089D03-7D31-4DC8-A98D-DF9C14E520E4}"
+          },
+          "result": {
+            "globalId": "{92089D03-7D31-4DC8-A98D-DF9C14E520E4}",
+            "objectId": 15,
+            "success": true,
+            "uniqueId": 15
+          },
+          "layerInfo": {
+            "id": 1,
+            "name": "rru_data_alpha_group_s"
+          }
+        }
+      ],
+      "rru_data_beta_group_s": [
+        {
+          "attributes": {
+            "beta_unit_idx": 1,
+            "unit_sectors_beta": "beta",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{DCEC942E-B46D-46B4-AFBF-E79D8E06AF74}"
+          },
+          "result": {
+            "globalId": "{DCEC942E-B46D-46B4-AFBF-E79D8E06AF74}",
+            "objectId": 13,
+            "success": true,
+            "uniqueId": 13
+          },
+          "layerInfo": {
+            "id": 2,
+            "name": "rru_data_beta_group_s"
+          }
+        }
+      ],
+      "rru_data_gamma_group_s": [
+        {
+          "attributes": {
+            "gamma_unit_idx": 1,
+            "unit_sectors_gamma": "gamma",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{D2EFCD7A-0FCE-4B4E-BA93-BCD177C12035}"
+          },
+          "result": {
+            "globalId": "{D2EFCD7A-0FCE-4B4E-BA93-BCD177C12035}",
+            "objectId": 11,
+            "success": true,
+            "uniqueId": 11
+          },
+          "layerInfo": {
+            "id": 3,
+            "name": "rru_data_gamma_group_s"
+          }
+        }
+      ],
+      "rru_data_delta_group_s": [
+        {
+          "attributes": {
+            "delta_unit_idx": 1,
+            "unit_sectors_delta": "delta",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{38D3B3F1-B4AD-4411-BB3D-F12B9202A0C1}"
+          },
+          "result": {
+            "globalId": "{38D3B3F1-B4AD-4411-BB3D-F12B9202A0C1}",
+            "objectId": 12,
+            "success": true,
+            "uniqueId": 12
+          },
+          "layerInfo": {
+            "id": 4,
+            "name": "rru_data_delta_group_s"
+          }
+        }
+      ],
+      "rru_data_epsilon_group_s": [
+        {
+          "attributes": {
+            "epsilon_unit_idx": 1,
+            "unit_sectors_epsilon": "epsilon",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{61053517-5108-4E63-970C-7D81FF2DEB6E}"
+          },
+          "result": {
+            "globalId": "{61053517-5108-4E63-970C-7D81FF2DEB6E}",
+            "objectId": 12,
+            "success": true,
+            "uniqueId": 12
+          },
+          "layerInfo": {
+            "id": 5,
+            "name": "rru_data_epsilon_group_s"
+          }
+        }
+      ],
+      "rru_data_zeta_group_s": [
+        {
+          "attributes": {
+            "unit_sectors_zeta": "zeta",
+            "zeta_unit_idx": 1,
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{70D8CF6B-2CF4-4940-A1DE-06EC6D17AF8E}"
+          },
+          "result": {
+            "globalId": "{70D8CF6B-2CF4-4940-A1DE-06EC6D17AF8E}",
+            "objectId": 11,
+            "success": true,
+            "uniqueId": 11
+          },
+          "layerInfo": {
+            "id": 6,
+            "name": "rru_data_zeta_group_s"
+          }
+        }
+      ],
+      "catch_all_s": [
+        {
+          "attributes": {
+            "cap_count": "1",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{A2A4C981-EDF3-4BBD-8220-E85C93B88D37}"
+          },
+          "result": {
+            "globalId": "{A2A4C981-EDF3-4BBD-8220-E85C93B88D37}",
+            "objectId": 26,
+            "success": true,
+            "uniqueId": 26
+          },
+          "layerInfo": {
+            "id": 9,
+            "name": "catch_all_s"
+          }
+        }
+      ]
+    }
+  },
+  "applyEdits": [
+    {
+      "id": 0,
+      "attachments": {
+        "adds": [
+          {
+            "uploadId": "6d702a20cffc486f8fdbe56be8c3a827",
+            "globalId": "{D0A5DE3E-4936-4C6B-9F92-80D4FDBCA3EF}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "glamour_photo-20250619-163605.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "glamour_photo",
+            "size": 204515
+          },
+          {
+            "uploadId": "f9556ad7ba7a48508b57ea34804dbed9",
+            "globalId": "{03B9BDFD-596A-4823-BACB-7ECDC1D1F7AB}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "log_book_entry_photo-20250619-163607.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "log_book_entry_photo",
+            "size": 236303
+          },
+          {
+            "uploadId": "5bc302eadfd34df4b3ac6e8eb6e3d6e5",
+            "globalId": "{0393E7AF-3713-41A8-B235-A358AC1C5AB5}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "site_signage_photo1_20250619-103611.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "site_signage_photo",
+            "size": 149713
+          },
+          {
+            "uploadId": "b478ab3496544e0498ae36aa6734f461",
+            "globalId": "{398B04A5-A237-4A7D-826A-7AAB45F3B635}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "site_fccnum_photo-20250619-163614.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "site_fccnum_photo",
+            "size": 191393
+          },
+          {
+            "uploadId": "360b0da370f647e7af21c20b82455b1a",
+            "globalId": "{7C0687B8-12DD-46B4-9EAD-F0F3B9CC04DD}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "rbs_cabinet_overview_photo-20250619-163617.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "rbs_cabinet_overview_photo",
+            "size": 213732
+          },
+          {
+            "uploadId": "735face9809242c8b1323d69d1e570ab",
+            "globalId": "{31B98530-DF5F-46EB-9434-FF3C349882A0}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "rbs_cabinet_condition_photo-20250619-163623.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "rbs_cabinet_condition_photo",
+            "size": 192126
+          },
+          {
+            "uploadId": "90ec12d5168c4d1da181985b13193f1a",
+            "globalId": "{04885D95-2D7D-4D74-86C5-E55D63917C9C}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "crane_photo-20250619-163626.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "crane_photo",
+            "size": 193867
+          },
+          {
+            "uploadId": "caa9fa1c91a54831b661e0cedc2dbc79",
+            "globalId": "{011C2061-AA5F-471A-87A6-622342E7EC80}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "rru_return_label_photo-20250619-163630.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "rru_return_label_photo",
+            "size": 227696
+          },
+          {
+            "uploadId": "0f5332024bda432f86d97fdfde2465c5",
+            "globalId": "{CABEDBF3-2008-424B-90FE-CE353A5FE902}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "additional_site_photo1_20250619-103633.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "additional_site_photo",
+            "size": 194208
+          },
+          {
+            "uploadId": "75e4228b84b244faac22fa49fd7f858a",
+            "globalId": "{AEEA3BA7-54BA-445F-8ECE-5D3605F25578}",
+            "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "name": "tech_signature-20250619-163657.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "tech_signature",
+            "size": 6317
+          }
+        ]
+      },
+      "adds": [
+        {
+          "attributes": {
+            "additonal_site_count": "2",
+            "alpha_photo_count": "1",
+            "beta_photo_count": "1",
+            "confirm_org": "FieldSync",
+            "cop_style": "ericsson",
+            "customer": "other",
+            "customer_label": "Lucy",
+            "customer_other": "Lucy",
+            "customer_site_id": "SA-testpurpose",
+            "customer_site_name": "Purpose Test",
+            "datetime_updated": "0619251035",
+            "delta_photo_count": "1",
+            "email": "lkien@fieldsync.io",
+            "enb_name": "Purpose Test",
+            "epsilon_photo_count": "1",
+            "eus_appointment_number": "SA-testpurpose",
+            "gamma_photo_count": "1",
+            "inspection_technician": "Lucy Kien",
+            "organization_id": "06f64dce-6fde-4a49-bba8-ed9a22498516",
+            "organization_url": "organization_id?url=https://test.fieldsync.io/api/v0/organization&email=lkien@fieldsync.io",
+            "pim_sweep_testing_selection": "no",
+            "resolution_type_selection": "ericsson_hardware",
+            "return_visit_needed": "yes",
+            "sector_selection": "alpha,gamma,beta,delta,zeta,epsilon",
+            "site_signage_count": "2",
+            "site_visit_datetime": 1750350929920,
+            "structure_owner": "Lucy",
+            "structure_owner_bin": "yes",
+            "survey_purpose": "cop",
+            "survey_type": "cop_ericsson",
+            "temperature_auto": 84.74,
+            "username": "lkien_fieldsync",
+            "weather_auto": "Clear",
+            "weather_city": "Longmont",
+            "weather_lat": 40.15291468650682,
+            "weather_lon": -105.10677124482928,
+            "wind_direction_auto": 180,
+            "wind_speed_auto": 6.91,
+            "work_completed": "yes",
+            "work_order": "SA-testpurpose",
+            "zeta_photo_count": "1",
+            "globalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}"
+          },
+          "attachments": {
+            "glamour_photo": [
+              {
+                "globalId": "{D0A5DE3E-4936-4C6B-9F92-80D4FDBCA3EF}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "glamour_photo-20250619-163605.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "glamour_photo",
+                "size": 204515,
+                "id": 218,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/218"
+              }
+            ],
+            "log_book_entry_photo": [
+              {
+                "globalId": "{03B9BDFD-596A-4823-BACB-7ECDC1D1F7AB}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "log_book_entry_photo-20250619-163607.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "log_book_entry_photo",
+                "size": 236303,
+                "id": 219,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/219"
+              }
+            ],
+            "site_signage_photo": [
+              {
+                "globalId": "{0393E7AF-3713-41A8-B235-A358AC1C5AB5}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "site_signage_photo1_20250619-103611.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "site_signage_photo",
+                "size": 149713,
+                "id": 220,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/220"
+              }
+            ],
+            "site_fccnum_photo": [
+              {
+                "globalId": "{398B04A5-A237-4A7D-826A-7AAB45F3B635}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "site_fccnum_photo-20250619-163614.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "site_fccnum_photo",
+                "size": 191393,
+                "id": 221,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/221"
+              }
+            ],
+            "rbs_cabinet_overview_photo": [
+              {
+                "globalId": "{7C0687B8-12DD-46B4-9EAD-F0F3B9CC04DD}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "rbs_cabinet_overview_photo-20250619-163617.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "rbs_cabinet_overview_photo",
+                "size": 213732,
+                "id": 222,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/222"
+              }
+            ],
+            "rbs_cabinet_condition_photo": [
+              {
+                "globalId": "{31B98530-DF5F-46EB-9434-FF3C349882A0}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "rbs_cabinet_condition_photo-20250619-163623.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "rbs_cabinet_condition_photo",
+                "size": 192126,
+                "id": 223,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/223"
+              }
+            ],
+            "crane_photo": [
+              {
+                "globalId": "{04885D95-2D7D-4D74-86C5-E55D63917C9C}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "crane_photo-20250619-163626.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "crane_photo",
+                "size": 193867,
+                "id": 224,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/224"
+              }
+            ],
+            "rru_return_label_photo": [
+              {
+                "globalId": "{011C2061-AA5F-471A-87A6-622342E7EC80}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "rru_return_label_photo-20250619-163630.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "rru_return_label_photo",
+                "size": 227696,
+                "id": 225,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/225"
+              }
+            ],
+            "additional_site_photo": [
+              {
+                "globalId": "{CABEDBF3-2008-424B-90FE-CE353A5FE902}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "additional_site_photo1_20250619-103633.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "additional_site_photo",
+                "size": 194208,
+                "id": 226,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/226"
+              }
+            ],
+            "tech_signature": [
+              {
+                "globalId": "{AEEA3BA7-54BA-445F-8ECE-5D3605F25578}",
+                "parentGlobalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                "name": "tech_signature-20250619-163657.jpg",
+                "contentType": "image/jpeg",
+                "keywords": "tech_signature",
+                "size": 6317,
+                "id": 227,
+                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer/0/16/attachments/227"
+              }
+            ]
+          },
+          "geometry": {
+            "x": -105.10677124482928,
+            "y": 40.15291468650682,
+            "spatialReference": {
+              "wkid": 4326
+            }
+          },
+          "result": {
+            "globalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "objectId": 16,
+            "success": true,
+            "uniqueId": 16
+          },
+          "layerInfo": {
+            "id": 0,
+            "name": "Form_2"
+          },
+          "repeats": {
+            "rru_data_alpha_group_s": [
+              {
+                "attributes": {
+                  "alpha_unit_idx": 1,
+                  "unit_sectors_alpha": "alpha",
+                  "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                  "globalid": "{92089D03-7D31-4DC8-A98D-DF9C14E520E4}"
+                },
+                "result": {
+                  "globalId": "{92089D03-7D31-4DC8-A98D-DF9C14E520E4}",
+                  "objectId": 15,
+                  "success": true,
+                  "uniqueId": 15
+                },
+                "layerInfo": {
+                  "id": 1,
+                  "name": "rru_data_alpha_group_s"
+                }
+              }
+            ],
+            "rru_data_beta_group_s": [
+              {
+                "attributes": {
+                  "beta_unit_idx": 1,
+                  "unit_sectors_beta": "beta",
+                  "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                  "globalid": "{DCEC942E-B46D-46B4-AFBF-E79D8E06AF74}"
+                },
+                "result": {
+                  "globalId": "{DCEC942E-B46D-46B4-AFBF-E79D8E06AF74}",
+                  "objectId": 13,
+                  "success": true,
+                  "uniqueId": 13
+                },
+                "layerInfo": {
+                  "id": 2,
+                  "name": "rru_data_beta_group_s"
+                }
+              }
+            ],
+            "rru_data_gamma_group_s": [
+              {
+                "attributes": {
+                  "gamma_unit_idx": 1,
+                  "unit_sectors_gamma": "gamma",
+                  "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                  "globalid": "{D2EFCD7A-0FCE-4B4E-BA93-BCD177C12035}"
+                },
+                "result": {
+                  "globalId": "{D2EFCD7A-0FCE-4B4E-BA93-BCD177C12035}",
+                  "objectId": 11,
+                  "success": true,
+                  "uniqueId": 11
+                },
+                "layerInfo": {
+                  "id": 3,
+                  "name": "rru_data_gamma_group_s"
+                }
+              }
+            ],
+            "rru_data_delta_group_s": [
+              {
+                "attributes": {
+                  "delta_unit_idx": 1,
+                  "unit_sectors_delta": "delta",
+                  "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                  "globalid": "{38D3B3F1-B4AD-4411-BB3D-F12B9202A0C1}"
+                },
+                "result": {
+                  "globalId": "{38D3B3F1-B4AD-4411-BB3D-F12B9202A0C1}",
+                  "objectId": 12,
+                  "success": true,
+                  "uniqueId": 12
+                },
+                "layerInfo": {
+                  "id": 4,
+                  "name": "rru_data_delta_group_s"
+                }
+              }
+            ],
+            "rru_data_epsilon_group_s": [
+              {
+                "attributes": {
+                  "epsilon_unit_idx": 1,
+                  "unit_sectors_epsilon": "epsilon",
+                  "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                  "globalid": "{61053517-5108-4E63-970C-7D81FF2DEB6E}"
+                },
+                "result": {
+                  "globalId": "{61053517-5108-4E63-970C-7D81FF2DEB6E}",
+                  "objectId": 12,
+                  "success": true,
+                  "uniqueId": 12
+                },
+                "layerInfo": {
+                  "id": 5,
+                  "name": "rru_data_epsilon_group_s"
+                }
+              }
+            ],
+            "rru_data_zeta_group_s": [
+              {
+                "attributes": {
+                  "unit_sectors_zeta": "zeta",
+                  "zeta_unit_idx": 1,
+                  "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                  "globalid": "{70D8CF6B-2CF4-4940-A1DE-06EC6D17AF8E}"
+                },
+                "result": {
+                  "globalId": "{70D8CF6B-2CF4-4940-A1DE-06EC6D17AF8E}",
+                  "objectId": 11,
+                  "success": true,
+                  "uniqueId": 11
+                },
+                "layerInfo": {
+                  "id": 6,
+                  "name": "rru_data_zeta_group_s"
+                }
+              }
+            ],
+            "catch_all_s": [
+              {
+                "attributes": {
+                  "cap_count": "1",
+                  "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+                  "globalid": "{A2A4C981-EDF3-4BBD-8220-E85C93B88D37}"
+                },
+                "result": {
+                  "globalId": "{A2A4C981-EDF3-4BBD-8220-E85C93B88D37}",
+                  "objectId": 26,
+                  "success": true,
+                  "uniqueId": 26
+                },
+                "layerInfo": {
+                  "id": 9,
+                  "name": "catch_all_s"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 0,
+        "name": "Form_2",
+        "type": "Feature Layer",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 1,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_alpha_group_s",
+            "relatedTableId": 1,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 2,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_beta_group_s",
+            "relatedTableId": 2,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 3,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_gamma_group_s",
+            "relatedTableId": 3,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 4,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_delta_group_s",
+            "relatedTableId": 4,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 5,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_epsilon_group_s",
+            "relatedTableId": 5,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 6,
+            "keyField": "globalid",
+            "name": "Form_2_rru_data_zeta_group_s",
+            "relatedTableId": 6,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 7,
+            "keyField": "globalid",
+            "name": "Form_2_sweep_testing_group_s",
+            "relatedTableId": 7,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 8,
+            "keyField": "globalid",
+            "name": "Form_2_pim_testing_group_s",
+            "relatedTableId": 8,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 9,
+            "keyField": "globalid",
+            "name": "Form_2_catch_all_s",
+            "relatedTableId": 9,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "adds": [
+        {
+          "attributes": {
+            "cap_count": "1",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{A2A4C981-EDF3-4BBD-8220-E85C93B88D37}"
+          },
+          "result": {
+            "globalId": "{A2A4C981-EDF3-4BBD-8220-E85C93B88D37}",
+            "objectId": 26,
+            "success": true,
+            "uniqueId": 26
+          },
+          "layerInfo": {
+            "id": 9,
+            "name": "catch_all_s"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 9,
+        "name": "catch_all_s",
+        "type": "Table",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 9,
+            "keyField": "parentglobalid",
+            "name": "Form_2_catch_all_s",
+            "relatedTableId": 0,
+            "role": "esriRelRoleDestination",
+            "keyFieldInfo": {
+              "alias": "ParentGlobalID",
+              "defaultValue": null,
+              "editable": true,
+              "length": 38,
+              "name": "parentglobalid",
+              "nullable": true,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGUID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "adds": [
+        {
+          "attributes": {
+            "epsilon_unit_idx": 1,
+            "unit_sectors_epsilon": "epsilon",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{61053517-5108-4E63-970C-7D81FF2DEB6E}"
+          },
+          "result": {
+            "globalId": "{61053517-5108-4E63-970C-7D81FF2DEB6E}",
+            "objectId": 12,
+            "success": true,
+            "uniqueId": 12
+          },
+          "layerInfo": {
+            "id": 5,
+            "name": "rru_data_epsilon_group_s"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 5,
+        "name": "rru_data_epsilon_group_s",
+        "type": "Table",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 5,
+            "keyField": "parentglobalid",
+            "name": "Form_2_rru_data_epsilon_group_s",
+            "relatedTableId": 0,
+            "role": "esriRelRoleDestination",
+            "keyFieldInfo": {
+              "alias": "ParentGlobalID",
+              "defaultValue": null,
+              "editable": true,
+              "length": 38,
+              "name": "parentglobalid",
+              "nullable": true,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGUID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "adds": [
+        {
+          "attributes": {
+            "unit_sectors_zeta": "zeta",
+            "zeta_unit_idx": 1,
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{70D8CF6B-2CF4-4940-A1DE-06EC6D17AF8E}"
+          },
+          "result": {
+            "globalId": "{70D8CF6B-2CF4-4940-A1DE-06EC6D17AF8E}",
+            "objectId": 11,
+            "success": true,
+            "uniqueId": 11
+          },
+          "layerInfo": {
+            "id": 6,
+            "name": "rru_data_zeta_group_s"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 6,
+        "name": "rru_data_zeta_group_s",
+        "type": "Table",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 6,
+            "keyField": "parentglobalid",
+            "name": "Form_2_rru_data_zeta_group_s",
+            "relatedTableId": 0,
+            "role": "esriRelRoleDestination",
+            "keyFieldInfo": {
+              "alias": "ParentGlobalID",
+              "defaultValue": null,
+              "editable": true,
+              "length": 38,
+              "name": "parentglobalid",
+              "nullable": true,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGUID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "adds": [
+        {
+          "attributes": {
+            "delta_unit_idx": 1,
+            "unit_sectors_delta": "delta",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{38D3B3F1-B4AD-4411-BB3D-F12B9202A0C1}"
+          },
+          "result": {
+            "globalId": "{38D3B3F1-B4AD-4411-BB3D-F12B9202A0C1}",
+            "objectId": 12,
+            "success": true,
+            "uniqueId": 12
+          },
+          "layerInfo": {
+            "id": 4,
+            "name": "rru_data_delta_group_s"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 4,
+        "name": "rru_data_delta_group_s",
+        "type": "Table",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 4,
+            "keyField": "parentglobalid",
+            "name": "Form_2_rru_data_delta_group_s",
+            "relatedTableId": 0,
+            "role": "esriRelRoleDestination",
+            "keyFieldInfo": {
+              "alias": "ParentGlobalID",
+              "defaultValue": null,
+              "editable": true,
+              "length": 38,
+              "name": "parentglobalid",
+              "nullable": true,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGUID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "adds": [
+        {
+          "attributes": {
+            "beta_unit_idx": 1,
+            "unit_sectors_beta": "beta",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{DCEC942E-B46D-46B4-AFBF-E79D8E06AF74}"
+          },
+          "result": {
+            "globalId": "{DCEC942E-B46D-46B4-AFBF-E79D8E06AF74}",
+            "objectId": 13,
+            "success": true,
+            "uniqueId": 13
+          },
+          "layerInfo": {
+            "id": 2,
+            "name": "rru_data_beta_group_s"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 2,
+        "name": "rru_data_beta_group_s",
+        "type": "Table",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 2,
+            "keyField": "parentglobalid",
+            "name": "Form_2_rru_data_beta_group_s",
+            "relatedTableId": 0,
+            "role": "esriRelRoleDestination",
+            "keyFieldInfo": {
+              "alias": "ParentGlobalID",
+              "defaultValue": null,
+              "editable": true,
+              "length": 38,
+              "name": "parentglobalid",
+              "nullable": true,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGUID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "adds": [
+        {
+          "attributes": {
+            "alpha_unit_idx": 1,
+            "unit_sectors_alpha": "alpha",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{92089D03-7D31-4DC8-A98D-DF9C14E520E4}"
+          },
+          "result": {
+            "globalId": "{92089D03-7D31-4DC8-A98D-DF9C14E520E4}",
+            "objectId": 15,
+            "success": true,
+            "uniqueId": 15
+          },
+          "layerInfo": {
+            "id": 1,
+            "name": "rru_data_alpha_group_s"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 1,
+        "name": "rru_data_alpha_group_s",
+        "type": "Table",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 1,
+            "keyField": "parentglobalid",
+            "name": "Form_2_rru_data_alpha_group_s",
+            "relatedTableId": 0,
+            "role": "esriRelRoleDestination",
+            "keyFieldInfo": {
+              "alias": "ParentGlobalID",
+              "defaultValue": null,
+              "editable": true,
+              "length": 38,
+              "name": "parentglobalid",
+              "nullable": true,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGUID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "adds": [
+        {
+          "attributes": {
+            "gamma_unit_idx": 1,
+            "unit_sectors_gamma": "gamma",
+            "parentglobalid": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+            "globalid": "{D2EFCD7A-0FCE-4B4E-BA93-BCD177C12035}"
+          },
+          "result": {
+            "globalId": "{D2EFCD7A-0FCE-4B4E-BA93-BCD177C12035}",
+            "objectId": 11,
+            "success": true,
+            "uniqueId": 11
+          },
+          "layerInfo": {
+            "id": 3,
+            "name": "rru_data_gamma_group_s"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 3,
+        "name": "rru_data_gamma_group_s",
+        "type": "Table",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 3,
+            "keyField": "parentglobalid",
+            "name": "Form_2_rru_data_gamma_group_s",
+            "relatedTableId": 0,
+            "role": "esriRelRoleDestination",
+            "keyFieldInfo": {
+              "alias": "ParentGlobalID",
+              "defaultValue": null,
+              "editable": true,
+              "length": 38,
+              "name": "parentglobalid",
+              "nullable": true,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGUID"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "response": [
+    {
+      "addResults": [
+        {
+          "globalId": "{AE92ACDE-C4BC-40EF-8063-7ED1F03CA47E}",
+          "objectId": 16,
+          "success": true,
+          "uniqueId": 16
+        }
+      ],
+      "attachments": {
+        "addResults": [
+          {
+            "globalId": "{D0A5DE3E-4936-4C6B-9F92-80D4FDBCA3EF}",
+            "objectId": 218,
+            "success": true
+          },
+          {
+            "globalId": "{03B9BDFD-596A-4823-BACB-7ECDC1D1F7AB}",
+            "objectId": 219,
+            "success": true
+          },
+          {
+            "globalId": "{0393E7AF-3713-41A8-B235-A358AC1C5AB5}",
+            "objectId": 220,
+            "success": true
+          },
+          {
+            "globalId": "{398B04A5-A237-4A7D-826A-7AAB45F3B635}",
+            "objectId": 221,
+            "success": true
+          },
+          {
+            "globalId": "{7C0687B8-12DD-46B4-9EAD-F0F3B9CC04DD}",
+            "objectId": 222,
+            "success": true
+          },
+          {
+            "globalId": "{31B98530-DF5F-46EB-9434-FF3C349882A0}",
+            "objectId": 223,
+            "success": true
+          },
+          {
+            "globalId": "{04885D95-2D7D-4D74-86C5-E55D63917C9C}",
+            "objectId": 224,
+            "success": true
+          },
+          {
+            "globalId": "{011C2061-AA5F-471A-87A6-622342E7EC80}",
+            "objectId": 225,
+            "success": true
+          },
+          {
+            "globalId": "{CABEDBF3-2008-424B-90FE-CE353A5FE902}",
+            "objectId": 226,
+            "success": true
+          },
+          {
+            "globalId": "{AEEA3BA7-54BA-445F-8ECE-5D3605F25578}",
+            "objectId": 227,
+            "success": true
+          }
+        ],
+        "deleteResults": [],
+        "updateResults": []
+      },
+      "id": 0
+    },
+    {
+      "addResults": [
+        {
+          "globalId": "{A2A4C981-EDF3-4BBD-8220-E85C93B88D37}",
+          "objectId": 26,
+          "success": true,
+          "uniqueId": 26
+        }
+      ],
+      "id": 9
+    },
+    {
+      "addResults": [
+        {
+          "globalId": "{61053517-5108-4E63-970C-7D81FF2DEB6E}",
+          "objectId": 12,
+          "success": true,
+          "uniqueId": 12
+        }
+      ],
+      "id": 5
+    },
+    {
+      "addResults": [
+        {
+          "globalId": "{70D8CF6B-2CF4-4940-A1DE-06EC6D17AF8E}",
+          "objectId": 11,
+          "success": true,
+          "uniqueId": 11
+        }
+      ],
+      "id": 6
+    },
+    {
+      "addResults": [
+        {
+          "globalId": "{38D3B3F1-B4AD-4411-BB3D-F12B9202A0C1}",
+          "objectId": 12,
+          "success": true,
+          "uniqueId": 12
+        }
+      ],
+      "id": 4
+    },
+    {
+      "addResults": [
+        {
+          "globalId": "{DCEC942E-B46D-46B4-AFBF-E79D8E06AF74}",
+          "objectId": 13,
+          "success": true,
+          "uniqueId": 13
+        }
+      ],
+      "id": 2
+    },
+    {
+      "addResults": [
+        {
+          "globalId": "{92089D03-7D31-4DC8-A98D-DF9C14E520E4}",
+          "objectId": 15,
+          "success": true,
+          "uniqueId": 15
+        }
+      ],
+      "id": 1
+    },
+    {
+      "addResults": [
+        {
+          "globalId": "{D2EFCD7A-0FCE-4B4E-BA93-BCD177C12035}",
+          "objectId": 11,
+          "success": true,
+          "uniqueId": 11
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "surveyInfo": {
+    "formItemId": "12cfc1ac99184253875c5d759e6a75b5",
+    "formTitle": "COP Survey",
+    "serviceItemId": "5ca45f2344e447f3b89e6a7f78339923",
+    "serviceUrl": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_1f5e02dfdda24bf3ab3bb522d864a741_form/FeatureServer"
+  },
+  "portalInfo": {
+    "url": "https://www.arcgis.com",
+    "token": "3NKHt6i2urmWtqOuugvr9Q30mgT9dtHlmoZXf7RFSCPJXdSkiVbNtVa-TEKLy1_UxPG7MPgOj8H5tPTeAodSnto8c3zWNWoS1-_FwddX5amUBUCetVH9a1cpzHjWfBtr7u-Mpp6Wqp_MsBIIbvD92n9Q5Es3-vwNW5zssMa01l00ElpXfRD_NrEIMaAW-vSZGabCteN0S0eEl17uG_VDP7t1-MecPvzt9NhgVSu2YKdWKXMsAZh_vcplG66MqAjC"
+  },
+  "userInfo": {
+    "username": "lkien_fieldsync",
+    "firstName": "Lucy",
+    "lastName": "Kien",
+    "fullName": "Lucy Kien",
+    "email": "lkien@fieldsync.io"
+  }
+}

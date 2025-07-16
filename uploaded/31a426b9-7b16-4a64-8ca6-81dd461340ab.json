@@ -1,0 +1,3079 @@
+{
+    "eventType": "addData",
+    "feature": {
+        "attributes": {
+            "apex_height": 65,
+            "confirm_org": "MurphyTower",
+            "customer": "other",
+            "customer_label": "City of Hobbs",
+            "customer_other": "City of Hobbs",
+            "customer_site_id": "Del Norte",
+            "customer_site_name": "Del Norte",
+            "email": "Spencerc@murphytower.com",
+            "flag_survey_bin": "no",
+            "guys_present_bin": "no",
+            "highest_appurtenance": "rod",
+            "highest_appurtenance_height": 65,
+            "inspection_technician": "Spencer Conklin",
+            "internal_components_bin": "",
+            "lightning_pro_location": "leg_a",
+            "lightning_pro_owner": "City of Hobbs",
+            "lightning_pro_present_ts": "rod",
+            "lightning_pro_rod_apex_ts": 65,
+            "organization_id": "e1da90b1-1639-48d3-ae7e-e116e1c3e0d4",
+            "safety_climb_bin": "no",
+            "site_visit_datetime": 1739995980000,
+            "skirt_bin": "no",
+            "slp_count": "4",
+            "structure_base_fw": 2,
+            "structure_legs_count": 3,
+            "structure_owner": "City of Hobbs",
+            "structure_owner_bin": "yes",
+            "structure_steel_height": 60,
+            "structure_type": "ss",
+            "structure_type_label": "Self Support",
+            "survey_end": 1740161425958,
+            "survey_start": 1739995971708,
+            "survey_type": "structure",
+            "temperature_auto": 23.02,
+            "top_beacon_bin": "no",
+            "ts_face_width": 2,
+            "username": "spencerconklin_mts",
+            "weather_auto": "Clouds",
+            "weather_city": "Hobbs",
+            "weather_lat": 32.74033586,
+            "weather_lon": -103.15853733,
+            "wind_direction_auto": 40,
+            "wind_speed_auto": 11.5,
+            "globalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}"
+        },
+        "attachments": {
+            "site_layout_photo": [
+                {
+                    "globalId": "{E5C5701C-B922-4508-8789-16289FB9CA36}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "City_of_Hobbs_Del_Norte_site_layout_photo1_20250219-174058.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "site_layout_photo",
+                    "size": 5127659,
+                    "id": 490,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/490"
+                },
+                {
+                    "globalId": "{5FCF7F58-04BE-4124-B94D-47206067FD2F}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "City_of_Hobbs_Del_Norte_site_layout_photo2_20250219-174105.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "site_layout_photo",
+                    "size": 5369420,
+                    "id": 491,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/491"
+                },
+                {
+                    "globalId": "{25351C49-DA35-4529-B924-A036249FC5A7}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "City_of_Hobbs_Del_Norte_site_layout_photo3_20250219-174112.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "site_layout_photo",
+                    "size": 5416156,
+                    "id": 492,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/492"
+                }
+            ],
+            "lightning_pro_photo_ts": [
+                {
+                    "globalId": "{1A00994D-313C-4191-B77D-7939CED85E01}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "Hobbs_Del_Norte_topsteel_lightning_protection_20250219-134810.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "lightning_pro_photo_ts",
+                    "size": 248456,
+                    "id": 493,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/493"
+                }
+            ],
+            "ts_laser_photo": [
+                {
+                    "globalId": "{7779397B-AAE7-4D4F-BF20-81F1B638053D}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "Hobbs_Del_Norte_top_steel_to_grade_20250219-135211.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "ts_laser_photo",
+                    "size": 2774751,
+                    "id": 494,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/494"
+                }
+            ],
+            "ts_north_photo": [
+                {
+                    "globalId": "{71FEEF11-819A-4C50-9064-033C0541CA42}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "Hobbs_Del_Norte_top_steel_north_fz_20250219-134841.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "ts_north_photo",
+                    "size": 308828,
+                    "id": 495,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/495"
+                }
+            ],
+            "ts_east_photo": [
+                {
+                    "globalId": "{57450DE2-0A0E-4C2A-9960-A8692BD651D1}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "Hobbs_Del_Norte_top_steel_east_fz_20250219-134846.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "ts_east_photo",
+                    "size": 809619,
+                    "id": 496,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/496"
+                }
+            ],
+            "ts_south_photo": [
+                {
+                    "globalId": "{A63855CC-899D-431A-B234-79BDC546585D}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "Hobbs_Del_Norte_top_steel_south_fz_20250219-134854.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "ts_south_photo",
+                    "size": 906975,
+                    "id": 497,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/497"
+                }
+            ],
+            "ts_west_photo": [
+                {
+                    "globalId": "{9DA7B24D-AA48-4EA3-9CCF-F90118A15277}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "Hobbs_Del_Norte_top_steel_west_fz_20250219-134901.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "ts_west_photo",
+                    "size": 794180,
+                    "id": 498,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/498"
+                }
+            ],
+            "tech_signature": [
+                {
+                    "globalId": "{5AA39DE5-C080-4D40-8106-6ADB0008E08C}",
+                    "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "name": "City_of_Hobbs_Del_Norte_technician_signature_20250221-121008.jpg",
+                    "contentType": "image/jpeg",
+                    "keywords": "tech_signature",
+                    "size": 5653,
+                    "id": 499,
+                    "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/499"
+                }
+            ]
+        },
+        "geometry": {
+            "x": -103.15853733,
+            "y": 32.74033586,
+            "spatialReference": {
+                "wkid": 4326
+            }
+        },
+        "result": {
+            "globalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+            "objectId": 32,
+            "success": true,
+            "uniqueId": 32
+        },
+        "layerInfo": {
+            "id": 0,
+            "name": "Structure_Climb_Inspection"
+        },
+        "repeats": {
+            "base_photos_ss_s": [
+                {
+                    "attributes": {
+                        "base_leg_imaged": "leg_a",
+                        "base_ss_notes": null,
+                        "clear_distance_ss": null,
+                        "grout_bin_ss": "no",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}"
+                    },
+                    "attachments": {
+                        "base_front_ss_photo": [
+                            {
+                                "globalId": "{20EAC53A-582B-4863-BC13-14C24BB106F1}",
+                                "parentGlobalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                                "name": "Hobbs_Del_Norte_leg_a_base_azimuth180_20250219-131533.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_front_ss_photo",
+                                "size": 1398376,
+                                "id": 121,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/38/attachments/121"
+                            }
+                        ],
+                        "base_back_ss_photo": [
+                            {
+                                "globalId": "{0E461FB0-80EC-4DBE-9186-299FE96F3965}",
+                                "parentGlobalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                                "name": "Hobbs_Del_Norte_leg_a_base_azimuth0_20250219-131543.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_back_ss_photo",
+                                "size": 1616864,
+                                "id": 122,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/38/attachments/122"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                        "objectId": 38,
+                        "success": true,
+                        "uniqueId": 38
+                    },
+                    "layerInfo": {
+                        "id": 1,
+                        "name": "base_photos_ss_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "base_leg_imaged": "leg_b",
+                        "base_ss_notes": null,
+                        "clear_distance_ss": null,
+                        "grout_bin_ss": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{594E7691-8715-4137-8B18-D85070F5E978}"
+                    },
+                    "attachments": {
+                        "base_front_ss_photo": [
+                            {
+                                "globalId": "{3E51FD7C-1764-467C-996B-92FC7C69E202}",
+                                "parentGlobalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                                "name": "Hobbs_Del_Norte_leg_b_base_azimuth180_20250219-131618.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_front_ss_photo",
+                                "size": 1687012,
+                                "id": 123,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/39/attachments/123"
+                            }
+                        ],
+                        "base_back_ss_photo": [
+                            {
+                                "globalId": "{7E448C9E-FF72-4F53-9900-75A03C0FC7B1}",
+                                "parentGlobalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                                "name": "Hobbs_Del_Norte_leg_b_base_azimuth0_20250219-131624.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_back_ss_photo",
+                                "size": 1306734,
+                                "id": 124,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/39/attachments/124"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                        "objectId": 39,
+                        "success": true,
+                        "uniqueId": 39
+                    },
+                    "layerInfo": {
+                        "id": 1,
+                        "name": "base_photos_ss_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "base_leg_imaged": "leg_c",
+                        "base_ss_notes": null,
+                        "clear_distance_ss": null,
+                        "grout_bin_ss": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{136F5098-8B41-40DC-B475-860E82B9DB7F}"
+                    },
+                    "attachments": {
+                        "base_front_ss_photo": [
+                            {
+                                "globalId": "{148FF33C-5743-4602-B570-BD637D262747}",
+                                "parentGlobalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                                "name": "Hobbs_Del_Norte_leg_c_base_azimuth180_20250219-131704.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_front_ss_photo",
+                                "size": 1109091,
+                                "id": 125,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/40/attachments/125"
+                            }
+                        ],
+                        "base_back_ss_photo": [
+                            {
+                                "globalId": "{DE9BD6F9-0178-44C4-AFB0-1CD47E7B8C07}",
+                                "parentGlobalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                                "name": "Hobbs_Del_Norte_leg_c_base_azimuth0_20250219-131710.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_back_ss_photo",
+                                "size": 1339157,
+                                "id": 126,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/40/attachments/126"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                        "objectId": 40,
+                        "success": true,
+                        "uniqueId": 40
+                    },
+                    "layerInfo": {
+                        "id": 1,
+                        "name": "base_photos_ss_s"
+                    }
+                }
+            ],
+            "grounding_photos_s": [
+                {
+                    "attributes": {
+                        "glp_count": "2",
+                        "ground_lead_leg": "leg_a",
+                        "ground_lead_notes": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}"
+                    },
+                    "attachments": {
+                        "ground_lead_photo": [
+                            {
+                                "globalId": "{2A5215FC-D594-44BB-8495-CF3B52B57ADF}",
+                                "parentGlobalId": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}",
+                                "name": "Hobbs_Del_Norte_ground_lead1_20250219-131551.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ground_lead_photo",
+                                "size": 1581485,
+                                "id": 91,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/2/58/attachments/91"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}",
+                        "objectId": 58,
+                        "success": true,
+                        "uniqueId": 58
+                    },
+                    "layerInfo": {
+                        "id": 2,
+                        "name": "grounding_photos_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "glp_count": "2",
+                        "ground_lead_leg": "leg_b",
+                        "ground_lead_notes": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}"
+                    },
+                    "attachments": {
+                        "ground_lead_photo": [
+                            {
+                                "globalId": "{CDA3E042-7988-4D0C-919B-788285302132}",
+                                "parentGlobalId": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}",
+                                "name": "Hobbs_Del_Norte_ground_lead1_20250219-131641.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ground_lead_photo",
+                                "size": 1202766,
+                                "id": 92,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/2/59/attachments/92"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}",
+                        "objectId": 59,
+                        "success": true,
+                        "uniqueId": 59
+                    },
+                    "layerInfo": {
+                        "id": 2,
+                        "name": "grounding_photos_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "glp_count": "2",
+                        "ground_lead_leg": "leg_c",
+                        "ground_lead_notes": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}"
+                    },
+                    "attachments": {
+                        "ground_lead_photo": [
+                            {
+                                "globalId": "{DB9F4F56-56DF-4212-A612-E9A3BE425948}",
+                                "parentGlobalId": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}",
+                                "name": "Hobbs_Del_Norte_ground_lead1_20250219-131736.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ground_lead_photo",
+                                "size": 1621478,
+                                "id": 93,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/2/60/attachments/93"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}",
+                        "objectId": 60,
+                        "success": true,
+                        "uniqueId": 60
+                    },
+                    "layerInfo": {
+                        "id": 2,
+                        "name": "grounding_photos_s"
+                    }
+                }
+            ],
+            "radiation_source_s": [
+                {
+                    "attributes": {
+                        "rs_coax_route": "leg_a",
+                        "rs_coax_route_monopole": null,
+                        "rs_coax_route_monopole_ext": null,
+                        "rs_equipment_bin": "no",
+                        "rs_equipment_notes": null,
+                        "rs_equipment_type_count": null,
+                        "rs_ice_shield": "no",
+                        "rs_location": "leg_b",
+                        "rs_location_monopole": null,
+                        "rs_mount_height": 55,
+                        "rs_mount_type": "direct",
+                        "rs_mount_type_other": null,
+                        "rs_notes": null,
+                        "rs_owner": "City of Hobbs",
+                        "rs_sector_mount_type": null,
+                        "rs_sector_mount_type_other": null,
+                        "rs_type": "other,panel",
+                        "rs_type_count": 1,
+                        "rsap_count": "2",
+                        "rseqp_count": null,
+                        "rsmp_count": "1",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}"
+                    },
+                    "attachments": {
+                        "rs_photo": [
+                            {
+                                "globalId": "{CFF8218E-27F2-43AD-84AE-02EB912DE897}",
+                                "parentGlobalId": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}",
+                                "name": "Hobbs_Del_Norte_mount_centerline55_other_panel1_20250219-134332.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_photo",
+                                "size": 605904,
+                                "id": 434,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/51/attachments/434"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}",
+                        "objectId": 51,
+                        "success": true,
+                        "uniqueId": 51
+                    },
+                    "layerInfo": {
+                        "id": 3,
+                        "name": "radiation_source_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "rs_coax_route": "leg_a",
+                        "rs_coax_route_monopole": null,
+                        "rs_coax_route_monopole_ext": null,
+                        "rs_equipment_bin": "yes",
+                        "rs_equipment_notes": null,
+                        "rs_equipment_type_count": 2,
+                        "rs_ice_shield": "no",
+                        "rs_location": "leg_a,leg_c",
+                        "rs_location_monopole": null,
+                        "rs_mount_height": 59,
+                        "rs_mount_type": "side_arm",
+                        "rs_mount_type_other": null,
+                        "rs_notes": null,
+                        "rs_owner": "City of Hobbs",
+                        "rs_sector_mount_type": null,
+                        "rs_sector_mount_type_other": null,
+                        "rs_type": "panel",
+                        "rs_type_count": 2,
+                        "rsap_count": "3",
+                        "rseqp_count": "3",
+                        "rsmp_count": "3",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{73567EBF-54B0-4B54-8453-824EC6F186FB}"
+                    },
+                    "attachments": {
+                        "rs_mount_photo": [
+                            {
+                                "globalId": "{EA3CCFED-BFB1-4B31-9BC0-322D03AA8E38}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_mount_photo1_20250219-134535.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_mount_photo",
+                                "size": 839606,
+                                "id": 435,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/435"
+                            },
+                            {
+                                "globalId": "{9163A00A-3840-48EB-80EA-08C06B56BCE2}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_mount_photo2_20250219-134539.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_mount_photo",
+                                "size": 710145,
+                                "id": 436,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/436"
+                            }
+                        ],
+                        "rs_photo": [
+                            {
+                                "globalId": "{E26179A3-A442-40CD-9427-190804DB1575}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_panel1_20250219-134544.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_photo",
+                                "size": 508143,
+                                "id": 437,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/437"
+                            },
+                            {
+                                "globalId": "{956871F7-1B54-4342-A74A-A7FEEDC82BB8}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_panel2_20250219-134548.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_photo",
+                                "size": 631758,
+                                "id": 438,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/438"
+                            }
+                        ],
+                        "rs_equipment_photo": [
+                            {
+                                "globalId": "{33EE235C-F17D-4ACF-BACB-7CFFF990636C}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_equipment1_20250219-134605.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_equipment_photo",
+                                "size": 542893,
+                                "id": 439,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/439"
+                            },
+                            {
+                                "globalId": "{88F7BEBE-67AF-44E4-B322-D9C9C4D8C3FD}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_equipment2_20250219-134608.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_equipment_photo",
+                                "size": 610669,
+                                "id": 440,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/440"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                        "objectId": 52,
+                        "success": true,
+                        "uniqueId": 52
+                    },
+                    "layerInfo": {
+                        "id": 3,
+                        "name": "radiation_source_s"
+                    }
+                }
+            ],
+            "light_s": [
+                {
+                    "attributes": {
+                        "light_height": null,
+                        "light_location": null,
+                        "light_location_monopole": null,
+                        "light_notes": null,
+                        "lp_count": "1",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{C5B5B311-FF7E-478E-9466-12B834F3D63B}"
+                    },
+                    "result": {
+                        "globalId": "{C5B5B311-FF7E-478E-9466-12B834F3D63B}",
+                        "objectId": 35,
+                        "success": true,
+                        "uniqueId": 35
+                    },
+                    "layerInfo": {
+                        "id": 5,
+                        "name": "light_s"
+                    }
+                }
+            ],
+            "other_app_s": [
+                {
+                    "attributes": {
+                        "oap_count": "2",
+                        "other_app_description": "Junction box.",
+                        "other_app_height": 15,
+                        "other_app_ice_shield_bin": "no",
+                        "other_app_location": "alpha",
+                        "other_app_location_monopole": null,
+                        "other_app_owner": "City of Hobbs",
+                        "other_notes": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}"
+                    },
+                    "attachments": {
+                        "other_app_photo": [
+                            {
+                                "globalId": "{CCF45112-30D3-4414-A8B8-DEB0EAFBC54F}",
+                                "parentGlobalId": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}",
+                                "name": "Hobbs_Del_Norte_other_appurtenance15_photo1_20250219-133512.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "other_app_photo",
+                                "size": 480968,
+                                "id": 7,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/6/34/attachments/7"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}",
+                        "objectId": 34,
+                        "success": true,
+                        "uniqueId": 34
+                    },
+                    "layerInfo": {
+                        "id": 6,
+                        "name": "other_app_s"
+                    }
+                }
+            ],
+            "tia_info_s": [
+                {
+                    "attributes": {
+                        "tia_c7_change": null,
+                        "tia_c7_loop": null,
+                        "tia_context": null,
+                        "tia_def_identifier": "A",
+                        "tia_estimate_percent": null,
+                        "tia_height": 59,
+                        "tia_i3_crack_width": null,
+                        "tia_identifier_label": "Structure Condition",
+                        "tia_issue": "A1",
+                        "tia_issue_other": null,
+                        "tia_label": "Damaged structural member (leg / bracing)",
+                        "tia_level": null,
+                        "tia_location": "gamma",
+                        "tia_location_monopole": null,
+                        "tia_mb_diameter": null,
+                        "tia_mb_diameter_other": null,
+                        "tia_mb_grade": null,
+                        "tia_mb_grade_other": null,
+                        "tia_mb_length": null,
+                        "tia_member_height": null,
+                        "tia_member_ifw": null,
+                        "tia_member_is_bolted": "no",
+                        "tia_member_length": 29,
+                        "tia_member_ofw": null,
+                        "tia_member_pipe_diam": null,
+                        "tia_member_pipe_diam_other": null,
+                        "tia_member_plate_width": null,
+                        "tia_member_rod_diam": "0.625",
+                        "tia_member_tck": null,
+                        "tia_member_type": "rod",
+                        "tia_member_type_other": null,
+                        "tia_member_width": null,
+                        "tia_notes": "Bent member",
+                        "tia_severity": "1",
+                        "tia_whole": null,
+                        "tpp_count": "3",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}"
+                    },
+                    "attachments": {
+                        "tia_photo": [
+                            {
+                                "globalId": "{83EA7E96-5EE2-4A45-B31C-03950C647C5D}",
+                                "parentGlobalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                                "name": "Hobbs_Del_Norte_tia_def_photo1_20250219-134627.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "tia_photo",
+                                "size": 557596,
+                                "id": 215,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/7/109/attachments/215"
+                            },
+                            {
+                                "globalId": "{0F89EA9E-E882-4D33-8EE9-6D415189A035}",
+                                "parentGlobalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                                "name": "Hobbs_Del_Norte_tia_def_photo2_20250219-134631.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "tia_photo",
+                                "size": 646739,
+                                "id": 216,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/7/109/attachments/216"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                        "objectId": 109,
+                        "success": true,
+                        "uniqueId": 109
+                    },
+                    "layerInfo": {
+                        "id": 7,
+                        "name": "tia_info_s"
+                    }
+                }
+            ],
+            "catch_all_s": [
+                {
+                    "attributes": {
+                        "cap_count": "1",
+                        "catch_all_desc": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{007C58B4-573F-4C55-A413-DA45628B9407}"
+                    },
+                    "result": {
+                        "globalId": "{007C58B4-573F-4C55-A413-DA45628B9407}",
+                        "objectId": 35,
+                        "success": true,
+                        "uniqueId": 35
+                    },
+                    "layerInfo": {
+                        "id": 9,
+                        "name": "catch_all_s"
+                    }
+                }
+            ]
+        }
+    },
+    "applyEdits": [
+        {
+            "id": 0,
+            "attachments": {
+                "adds": [
+                    {
+                        "uploadId": "efe6adcb4b8446fabdf57f46411be870",
+                        "globalId": "{E5C5701C-B922-4508-8789-16289FB9CA36}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "City_of_Hobbs_Del_Norte_site_layout_photo1_20250219-174058.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "site_layout_photo",
+                        "size": 5127659
+                    },
+                    {
+                        "uploadId": "11aa603dd088443897918412df8659f9",
+                        "globalId": "{5FCF7F58-04BE-4124-B94D-47206067FD2F}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "City_of_Hobbs_Del_Norte_site_layout_photo2_20250219-174105.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "site_layout_photo",
+                        "size": 5369420
+                    },
+                    {
+                        "uploadId": "44e1fab7933b48eab0a954c2fabf8726",
+                        "globalId": "{25351C49-DA35-4529-B924-A036249FC5A7}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "City_of_Hobbs_Del_Norte_site_layout_photo3_20250219-174112.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "site_layout_photo",
+                        "size": 5416156
+                    },
+                    {
+                        "uploadId": "484de30a0cfa41e9ba71fbe77ef392de",
+                        "globalId": "{1A00994D-313C-4191-B77D-7939CED85E01}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "Hobbs_Del_Norte_topsteel_lightning_protection_20250219-134810.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "lightning_pro_photo_ts",
+                        "size": 248456
+                    },
+                    {
+                        "uploadId": "28f9ab4550cc4607a230a42ed2e73b4a",
+                        "globalId": "{7779397B-AAE7-4D4F-BF20-81F1B638053D}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "Hobbs_Del_Norte_top_steel_to_grade_20250219-135211.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "ts_laser_photo",
+                        "size": 2774751
+                    },
+                    {
+                        "uploadId": "94c1d1ceafdc45f7a5c47ec7f7a4ac57",
+                        "globalId": "{71FEEF11-819A-4C50-9064-033C0541CA42}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "Hobbs_Del_Norte_top_steel_north_fz_20250219-134841.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "ts_north_photo",
+                        "size": 308828
+                    },
+                    {
+                        "uploadId": "9cea20f4e4364f9ab6490b3c308c822a",
+                        "globalId": "{57450DE2-0A0E-4C2A-9960-A8692BD651D1}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "Hobbs_Del_Norte_top_steel_east_fz_20250219-134846.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "ts_east_photo",
+                        "size": 809619
+                    },
+                    {
+                        "uploadId": "18a26c48d51741578592a562951d4028",
+                        "globalId": "{A63855CC-899D-431A-B234-79BDC546585D}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "Hobbs_Del_Norte_top_steel_south_fz_20250219-134854.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "ts_south_photo",
+                        "size": 906975
+                    },
+                    {
+                        "uploadId": "fe114c96c5df4b2da0a6f6cbd0ae0771",
+                        "globalId": "{9DA7B24D-AA48-4EA3-9CCF-F90118A15277}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "Hobbs_Del_Norte_top_steel_west_fz_20250219-134901.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "ts_west_photo",
+                        "size": 794180
+                    },
+                    {
+                        "uploadId": "5502d1184f15484aa6a008b085758f08",
+                        "globalId": "{5AA39DE5-C080-4D40-8106-6ADB0008E08C}",
+                        "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "name": "City_of_Hobbs_Del_Norte_technician_signature_20250221-121008.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "tech_signature",
+                        "size": 5653
+                    }
+                ]
+            },
+            "adds": [
+                {
+                    "attributes": {
+                        "apex_height": 65,
+                        "confirm_org": "MurphyTower",
+                        "customer": "other",
+                        "customer_label": "City of Hobbs",
+                        "customer_other": "City of Hobbs",
+                        "customer_site_id": "Del Norte",
+                        "customer_site_name": "Del Norte",
+                        "email": "Spencerc@murphytower.com",
+                        "flag_survey_bin": "no",
+                        "guys_present_bin": "no",
+                        "highest_appurtenance": "rod",
+                        "highest_appurtenance_height": 65,
+                        "inspection_technician": "Spencer Conklin",
+                        "internal_components_bin": "",
+                        "lightning_pro_location": "leg_a",
+                        "lightning_pro_owner": "City of Hobbs",
+                        "lightning_pro_present_ts": "rod",
+                        "lightning_pro_rod_apex_ts": 65,
+                        "organization_id": "e1da90b1-1639-48d3-ae7e-e116e1c3e0d4",
+                        "safety_climb_bin": "no",
+                        "site_visit_datetime": 1739995980000,
+                        "skirt_bin": "no",
+                        "slp_count": "4",
+                        "structure_base_fw": 2,
+                        "structure_legs_count": 3,
+                        "structure_owner": "City of Hobbs",
+                        "structure_owner_bin": "yes",
+                        "structure_steel_height": 60,
+                        "structure_type": "ss",
+                        "structure_type_label": "Self Support",
+                        "survey_end": 1740161425958,
+                        "survey_start": 1739995971708,
+                        "survey_type": "structure",
+                        "temperature_auto": 23.02,
+                        "top_beacon_bin": "no",
+                        "ts_face_width": 2,
+                        "username": "spencerconklin_mts",
+                        "weather_auto": "Clouds",
+                        "weather_city": "Hobbs",
+                        "weather_lat": 32.74033586,
+                        "weather_lon": -103.15853733,
+                        "wind_direction_auto": 40,
+                        "wind_speed_auto": 11.5,
+                        "globalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}"
+                    },
+                    "attachments": {
+                        "site_layout_photo": [
+                            {
+                                "globalId": "{E5C5701C-B922-4508-8789-16289FB9CA36}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "City_of_Hobbs_Del_Norte_site_layout_photo1_20250219-174058.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "site_layout_photo",
+                                "size": 5127659,
+                                "id": 490,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/490"
+                            },
+                            {
+                                "globalId": "{5FCF7F58-04BE-4124-B94D-47206067FD2F}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "City_of_Hobbs_Del_Norte_site_layout_photo2_20250219-174105.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "site_layout_photo",
+                                "size": 5369420,
+                                "id": 491,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/491"
+                            },
+                            {
+                                "globalId": "{25351C49-DA35-4529-B924-A036249FC5A7}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "City_of_Hobbs_Del_Norte_site_layout_photo3_20250219-174112.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "site_layout_photo",
+                                "size": 5416156,
+                                "id": 492,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/492"
+                            }
+                        ],
+                        "lightning_pro_photo_ts": [
+                            {
+                                "globalId": "{1A00994D-313C-4191-B77D-7939CED85E01}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "Hobbs_Del_Norte_topsteel_lightning_protection_20250219-134810.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "lightning_pro_photo_ts",
+                                "size": 248456,
+                                "id": 493,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/493"
+                            }
+                        ],
+                        "ts_laser_photo": [
+                            {
+                                "globalId": "{7779397B-AAE7-4D4F-BF20-81F1B638053D}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "Hobbs_Del_Norte_top_steel_to_grade_20250219-135211.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ts_laser_photo",
+                                "size": 2774751,
+                                "id": 494,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/494"
+                            }
+                        ],
+                        "ts_north_photo": [
+                            {
+                                "globalId": "{71FEEF11-819A-4C50-9064-033C0541CA42}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "Hobbs_Del_Norte_top_steel_north_fz_20250219-134841.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ts_north_photo",
+                                "size": 308828,
+                                "id": 495,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/495"
+                            }
+                        ],
+                        "ts_east_photo": [
+                            {
+                                "globalId": "{57450DE2-0A0E-4C2A-9960-A8692BD651D1}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "Hobbs_Del_Norte_top_steel_east_fz_20250219-134846.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ts_east_photo",
+                                "size": 809619,
+                                "id": 496,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/496"
+                            }
+                        ],
+                        "ts_south_photo": [
+                            {
+                                "globalId": "{A63855CC-899D-431A-B234-79BDC546585D}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "Hobbs_Del_Norte_top_steel_south_fz_20250219-134854.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ts_south_photo",
+                                "size": 906975,
+                                "id": 497,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/497"
+                            }
+                        ],
+                        "ts_west_photo": [
+                            {
+                                "globalId": "{9DA7B24D-AA48-4EA3-9CCF-F90118A15277}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "Hobbs_Del_Norte_top_steel_west_fz_20250219-134901.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ts_west_photo",
+                                "size": 794180,
+                                "id": 498,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/498"
+                            }
+                        ],
+                        "tech_signature": [
+                            {
+                                "globalId": "{5AA39DE5-C080-4D40-8106-6ADB0008E08C}",
+                                "parentGlobalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                "name": "City_of_Hobbs_Del_Norte_technician_signature_20250221-121008.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "tech_signature",
+                                "size": 5653,
+                                "id": 499,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/0/32/attachments/499"
+                            }
+                        ]
+                    },
+                    "geometry": {
+                        "x": -103.15853733,
+                        "y": 32.74033586,
+                        "spatialReference": {
+                            "wkid": 4326
+                        }
+                    },
+                    "result": {
+                        "globalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "objectId": 32,
+                        "success": true,
+                        "uniqueId": 32
+                    },
+                    "layerInfo": {
+                        "id": 0,
+                        "name": "Structure_Climb_Inspection"
+                    },
+                    "repeats": {
+                        "base_photos_ss_s": [
+                            {
+                                "attributes": {
+                                    "base_leg_imaged": "leg_a",
+                                    "base_ss_notes": null,
+                                    "clear_distance_ss": null,
+                                    "grout_bin_ss": "no",
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}"
+                                },
+                                "attachments": {
+                                    "base_front_ss_photo": [
+                                        {
+                                            "globalId": "{20EAC53A-582B-4863-BC13-14C24BB106F1}",
+                                            "parentGlobalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                                            "name": "Hobbs_Del_Norte_leg_a_base_azimuth180_20250219-131533.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "base_front_ss_photo",
+                                            "size": 1398376,
+                                            "id": 121,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/38/attachments/121"
+                                        }
+                                    ],
+                                    "base_back_ss_photo": [
+                                        {
+                                            "globalId": "{0E461FB0-80EC-4DBE-9186-299FE96F3965}",
+                                            "parentGlobalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                                            "name": "Hobbs_Del_Norte_leg_a_base_azimuth0_20250219-131543.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "base_back_ss_photo",
+                                            "size": 1616864,
+                                            "id": 122,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/38/attachments/122"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                                    "objectId": 38,
+                                    "success": true,
+                                    "uniqueId": 38
+                                },
+                                "layerInfo": {
+                                    "id": 1,
+                                    "name": "base_photos_ss_s"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "base_leg_imaged": "leg_b",
+                                    "base_ss_notes": null,
+                                    "clear_distance_ss": null,
+                                    "grout_bin_ss": null,
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{594E7691-8715-4137-8B18-D85070F5E978}"
+                                },
+                                "attachments": {
+                                    "base_front_ss_photo": [
+                                        {
+                                            "globalId": "{3E51FD7C-1764-467C-996B-92FC7C69E202}",
+                                            "parentGlobalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                                            "name": "Hobbs_Del_Norte_leg_b_base_azimuth180_20250219-131618.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "base_front_ss_photo",
+                                            "size": 1687012,
+                                            "id": 123,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/39/attachments/123"
+                                        }
+                                    ],
+                                    "base_back_ss_photo": [
+                                        {
+                                            "globalId": "{7E448C9E-FF72-4F53-9900-75A03C0FC7B1}",
+                                            "parentGlobalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                                            "name": "Hobbs_Del_Norte_leg_b_base_azimuth0_20250219-131624.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "base_back_ss_photo",
+                                            "size": 1306734,
+                                            "id": 124,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/39/attachments/124"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                                    "objectId": 39,
+                                    "success": true,
+                                    "uniqueId": 39
+                                },
+                                "layerInfo": {
+                                    "id": 1,
+                                    "name": "base_photos_ss_s"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "base_leg_imaged": "leg_c",
+                                    "base_ss_notes": null,
+                                    "clear_distance_ss": null,
+                                    "grout_bin_ss": null,
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{136F5098-8B41-40DC-B475-860E82B9DB7F}"
+                                },
+                                "attachments": {
+                                    "base_front_ss_photo": [
+                                        {
+                                            "globalId": "{148FF33C-5743-4602-B570-BD637D262747}",
+                                            "parentGlobalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                                            "name": "Hobbs_Del_Norte_leg_c_base_azimuth180_20250219-131704.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "base_front_ss_photo",
+                                            "size": 1109091,
+                                            "id": 125,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/40/attachments/125"
+                                        }
+                                    ],
+                                    "base_back_ss_photo": [
+                                        {
+                                            "globalId": "{DE9BD6F9-0178-44C4-AFB0-1CD47E7B8C07}",
+                                            "parentGlobalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                                            "name": "Hobbs_Del_Norte_leg_c_base_azimuth0_20250219-131710.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "base_back_ss_photo",
+                                            "size": 1339157,
+                                            "id": 126,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/40/attachments/126"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                                    "objectId": 40,
+                                    "success": true,
+                                    "uniqueId": 40
+                                },
+                                "layerInfo": {
+                                    "id": 1,
+                                    "name": "base_photos_ss_s"
+                                }
+                            }
+                        ],
+                        "grounding_photos_s": [
+                            {
+                                "attributes": {
+                                    "glp_count": "2",
+                                    "ground_lead_leg": "leg_a",
+                                    "ground_lead_notes": null,
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}"
+                                },
+                                "attachments": {
+                                    "ground_lead_photo": [
+                                        {
+                                            "globalId": "{2A5215FC-D594-44BB-8495-CF3B52B57ADF}",
+                                            "parentGlobalId": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}",
+                                            "name": "Hobbs_Del_Norte_ground_lead1_20250219-131551.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "ground_lead_photo",
+                                            "size": 1581485,
+                                            "id": 91,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/2/58/attachments/91"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}",
+                                    "objectId": 58,
+                                    "success": true,
+                                    "uniqueId": 58
+                                },
+                                "layerInfo": {
+                                    "id": 2,
+                                    "name": "grounding_photos_s"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "glp_count": "2",
+                                    "ground_lead_leg": "leg_b",
+                                    "ground_lead_notes": null,
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}"
+                                },
+                                "attachments": {
+                                    "ground_lead_photo": [
+                                        {
+                                            "globalId": "{CDA3E042-7988-4D0C-919B-788285302132}",
+                                            "parentGlobalId": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}",
+                                            "name": "Hobbs_Del_Norte_ground_lead1_20250219-131641.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "ground_lead_photo",
+                                            "size": 1202766,
+                                            "id": 92,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/2/59/attachments/92"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}",
+                                    "objectId": 59,
+                                    "success": true,
+                                    "uniqueId": 59
+                                },
+                                "layerInfo": {
+                                    "id": 2,
+                                    "name": "grounding_photos_s"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "glp_count": "2",
+                                    "ground_lead_leg": "leg_c",
+                                    "ground_lead_notes": null,
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}"
+                                },
+                                "attachments": {
+                                    "ground_lead_photo": [
+                                        {
+                                            "globalId": "{DB9F4F56-56DF-4212-A612-E9A3BE425948}",
+                                            "parentGlobalId": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}",
+                                            "name": "Hobbs_Del_Norte_ground_lead1_20250219-131736.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "ground_lead_photo",
+                                            "size": 1621478,
+                                            "id": 93,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/2/60/attachments/93"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}",
+                                    "objectId": 60,
+                                    "success": true,
+                                    "uniqueId": 60
+                                },
+                                "layerInfo": {
+                                    "id": 2,
+                                    "name": "grounding_photos_s"
+                                }
+                            }
+                        ],
+                        "radiation_source_s": [
+                            {
+                                "attributes": {
+                                    "rs_coax_route": "leg_a",
+                                    "rs_coax_route_monopole": null,
+                                    "rs_coax_route_monopole_ext": null,
+                                    "rs_equipment_bin": "no",
+                                    "rs_equipment_notes": null,
+                                    "rs_equipment_type_count": null,
+                                    "rs_ice_shield": "no",
+                                    "rs_location": "leg_b",
+                                    "rs_location_monopole": null,
+                                    "rs_mount_height": 55,
+                                    "rs_mount_type": "direct",
+                                    "rs_mount_type_other": null,
+                                    "rs_notes": null,
+                                    "rs_owner": "City of Hobbs",
+                                    "rs_sector_mount_type": null,
+                                    "rs_sector_mount_type_other": null,
+                                    "rs_type": "other,panel",
+                                    "rs_type_count": 1,
+                                    "rsap_count": "2",
+                                    "rseqp_count": null,
+                                    "rsmp_count": "1",
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}"
+                                },
+                                "attachments": {
+                                    "rs_photo": [
+                                        {
+                                            "globalId": "{CFF8218E-27F2-43AD-84AE-02EB912DE897}",
+                                            "parentGlobalId": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}",
+                                            "name": "Hobbs_Del_Norte_mount_centerline55_other_panel1_20250219-134332.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "rs_photo",
+                                            "size": 605904,
+                                            "id": 434,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/51/attachments/434"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}",
+                                    "objectId": 51,
+                                    "success": true,
+                                    "uniqueId": 51
+                                },
+                                "layerInfo": {
+                                    "id": 3,
+                                    "name": "radiation_source_s"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "rs_coax_route": "leg_a",
+                                    "rs_coax_route_monopole": null,
+                                    "rs_coax_route_monopole_ext": null,
+                                    "rs_equipment_bin": "yes",
+                                    "rs_equipment_notes": null,
+                                    "rs_equipment_type_count": 2,
+                                    "rs_ice_shield": "no",
+                                    "rs_location": "leg_a,leg_c",
+                                    "rs_location_monopole": null,
+                                    "rs_mount_height": 59,
+                                    "rs_mount_type": "side_arm",
+                                    "rs_mount_type_other": null,
+                                    "rs_notes": null,
+                                    "rs_owner": "City of Hobbs",
+                                    "rs_sector_mount_type": null,
+                                    "rs_sector_mount_type_other": null,
+                                    "rs_type": "panel",
+                                    "rs_type_count": 2,
+                                    "rsap_count": "3",
+                                    "rseqp_count": "3",
+                                    "rsmp_count": "3",
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{73567EBF-54B0-4B54-8453-824EC6F186FB}"
+                                },
+                                "attachments": {
+                                    "rs_mount_photo": [
+                                        {
+                                            "globalId": "{EA3CCFED-BFB1-4B31-9BC0-322D03AA8E38}",
+                                            "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                            "name": "Hobbs_Del_Norte_mount_centerline59_mount_photo1_20250219-134535.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "rs_mount_photo",
+                                            "size": 839606,
+                                            "id": 435,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/435"
+                                        },
+                                        {
+                                            "globalId": "{9163A00A-3840-48EB-80EA-08C06B56BCE2}",
+                                            "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                            "name": "Hobbs_Del_Norte_mount_centerline59_mount_photo2_20250219-134539.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "rs_mount_photo",
+                                            "size": 710145,
+                                            "id": 436,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/436"
+                                        }
+                                    ],
+                                    "rs_photo": [
+                                        {
+                                            "globalId": "{E26179A3-A442-40CD-9427-190804DB1575}",
+                                            "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                            "name": "Hobbs_Del_Norte_mount_centerline59_panel1_20250219-134544.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "rs_photo",
+                                            "size": 508143,
+                                            "id": 437,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/437"
+                                        },
+                                        {
+                                            "globalId": "{956871F7-1B54-4342-A74A-A7FEEDC82BB8}",
+                                            "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                            "name": "Hobbs_Del_Norte_mount_centerline59_panel2_20250219-134548.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "rs_photo",
+                                            "size": 631758,
+                                            "id": 438,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/438"
+                                        }
+                                    ],
+                                    "rs_equipment_photo": [
+                                        {
+                                            "globalId": "{33EE235C-F17D-4ACF-BACB-7CFFF990636C}",
+                                            "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                            "name": "Hobbs_Del_Norte_mount_centerline59_equipment1_20250219-134605.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "rs_equipment_photo",
+                                            "size": 542893,
+                                            "id": 439,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/439"
+                                        },
+                                        {
+                                            "globalId": "{88F7BEBE-67AF-44E4-B322-D9C9C4D8C3FD}",
+                                            "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                            "name": "Hobbs_Del_Norte_mount_centerline59_equipment2_20250219-134608.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "rs_equipment_photo",
+                                            "size": 610669,
+                                            "id": 440,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/440"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                    "objectId": 52,
+                                    "success": true,
+                                    "uniqueId": 52
+                                },
+                                "layerInfo": {
+                                    "id": 3,
+                                    "name": "radiation_source_s"
+                                }
+                            }
+                        ],
+                        "light_s": [
+                            {
+                                "attributes": {
+                                    "light_height": null,
+                                    "light_location": null,
+                                    "light_location_monopole": null,
+                                    "light_notes": null,
+                                    "lp_count": "1",
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{C5B5B311-FF7E-478E-9466-12B834F3D63B}"
+                                },
+                                "result": {
+                                    "globalId": "{C5B5B311-FF7E-478E-9466-12B834F3D63B}",
+                                    "objectId": 35,
+                                    "success": true,
+                                    "uniqueId": 35
+                                },
+                                "layerInfo": {
+                                    "id": 5,
+                                    "name": "light_s"
+                                }
+                            }
+                        ],
+                        "other_app_s": [
+                            {
+                                "attributes": {
+                                    "oap_count": "2",
+                                    "other_app_description": "Junction box.",
+                                    "other_app_height": 15,
+                                    "other_app_ice_shield_bin": "no",
+                                    "other_app_location": "alpha",
+                                    "other_app_location_monopole": null,
+                                    "other_app_owner": "City of Hobbs",
+                                    "other_notes": null,
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}"
+                                },
+                                "attachments": {
+                                    "other_app_photo": [
+                                        {
+                                            "globalId": "{CCF45112-30D3-4414-A8B8-DEB0EAFBC54F}",
+                                            "parentGlobalId": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}",
+                                            "name": "Hobbs_Del_Norte_other_appurtenance15_photo1_20250219-133512.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "other_app_photo",
+                                            "size": 480968,
+                                            "id": 7,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/6/34/attachments/7"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}",
+                                    "objectId": 34,
+                                    "success": true,
+                                    "uniqueId": 34
+                                },
+                                "layerInfo": {
+                                    "id": 6,
+                                    "name": "other_app_s"
+                                }
+                            }
+                        ],
+                        "tia_info_s": [
+                            {
+                                "attributes": {
+                                    "tia_c7_change": null,
+                                    "tia_c7_loop": null,
+                                    "tia_context": null,
+                                    "tia_def_identifier": "A",
+                                    "tia_estimate_percent": null,
+                                    "tia_height": 59,
+                                    "tia_i3_crack_width": null,
+                                    "tia_identifier_label": "Structure Condition",
+                                    "tia_issue": "A1",
+                                    "tia_issue_other": null,
+                                    "tia_label": "Damaged structural member (leg / bracing)",
+                                    "tia_level": null,
+                                    "tia_location": "gamma",
+                                    "tia_location_monopole": null,
+                                    "tia_mb_diameter": null,
+                                    "tia_mb_diameter_other": null,
+                                    "tia_mb_grade": null,
+                                    "tia_mb_grade_other": null,
+                                    "tia_mb_length": null,
+                                    "tia_member_height": null,
+                                    "tia_member_ifw": null,
+                                    "tia_member_is_bolted": "no",
+                                    "tia_member_length": 29,
+                                    "tia_member_ofw": null,
+                                    "tia_member_pipe_diam": null,
+                                    "tia_member_pipe_diam_other": null,
+                                    "tia_member_plate_width": null,
+                                    "tia_member_rod_diam": "0.625",
+                                    "tia_member_tck": null,
+                                    "tia_member_type": "rod",
+                                    "tia_member_type_other": null,
+                                    "tia_member_width": null,
+                                    "tia_notes": "Bent member",
+                                    "tia_severity": "1",
+                                    "tia_whole": null,
+                                    "tpp_count": "3",
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}"
+                                },
+                                "attachments": {
+                                    "tia_photo": [
+                                        {
+                                            "globalId": "{83EA7E96-5EE2-4A45-B31C-03950C647C5D}",
+                                            "parentGlobalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                                            "name": "Hobbs_Del_Norte_tia_def_photo1_20250219-134627.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "tia_photo",
+                                            "size": 557596,
+                                            "id": 215,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/7/109/attachments/215"
+                                        },
+                                        {
+                                            "globalId": "{0F89EA9E-E882-4D33-8EE9-6D415189A035}",
+                                            "parentGlobalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                                            "name": "Hobbs_Del_Norte_tia_def_photo2_20250219-134631.jpg",
+                                            "contentType": "image/jpeg",
+                                            "keywords": "tia_photo",
+                                            "size": 646739,
+                                            "id": 216,
+                                            "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/7/109/attachments/216"
+                                        }
+                                    ]
+                                },
+                                "result": {
+                                    "globalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                                    "objectId": 109,
+                                    "success": true,
+                                    "uniqueId": 109
+                                },
+                                "layerInfo": {
+                                    "id": 7,
+                                    "name": "tia_info_s"
+                                }
+                            }
+                        ],
+                        "catch_all_s": [
+                            {
+                                "attributes": {
+                                    "cap_count": "1",
+                                    "catch_all_desc": null,
+                                    "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                                    "globalid": "{007C58B4-573F-4C55-A413-DA45628B9407}"
+                                },
+                                "result": {
+                                    "globalId": "{007C58B4-573F-4C55-A413-DA45628B9407}",
+                                    "objectId": 35,
+                                    "success": true,
+                                    "uniqueId": 35
+                                },
+                                "layerInfo": {
+                                    "id": 9,
+                                    "name": "catch_all_s"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "layerInfo": {
+                "id": 0,
+                "name": "Structure_Climb_Inspection",
+                "type": "Feature Layer",
+                "objectIdField": "objectid",
+                "globalIdField": "globalid",
+                "relationships": [
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 1,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_base_photos_ss_s",
+                        "relatedTableId": 1,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    },
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 2,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_grounding_photos_s",
+                        "relatedTableId": 2,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    },
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 3,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_radiation_source_s",
+                        "relatedTableId": 3,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    },
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 4,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_guy_attachment_s",
+                        "relatedTableId": 4,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    },
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 5,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_light_s",
+                        "relatedTableId": 5,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    },
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 6,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_other_app_s",
+                        "relatedTableId": 6,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    },
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 7,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_tia_info_s",
+                        "relatedTableId": 7,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    },
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 8,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_taper_changes_s",
+                        "relatedTableId": 8,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    },
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 9,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_catch_all_s",
+                        "relatedTableId": 9,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    },
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 10,
+                        "keyField": "globalid",
+                        "name": "Structure_Climb_Inspection_flags_s",
+                        "relatedTableId": 10,
+                        "role": "esriRelRoleOrigin",
+                        "keyFieldInfo": {
+                            "alias": "GlobalID",
+                            "defaultValue": null,
+                            "editable": false,
+                            "length": 38,
+                            "name": "globalid",
+                            "nullable": false,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGlobalID"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "adds": [
+                {
+                    "attributes": {
+                        "cap_count": "1",
+                        "catch_all_desc": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{007C58B4-573F-4C55-A413-DA45628B9407}"
+                    },
+                    "result": {
+                        "globalId": "{007C58B4-573F-4C55-A413-DA45628B9407}",
+                        "objectId": 35,
+                        "success": true,
+                        "uniqueId": 35
+                    },
+                    "layerInfo": {
+                        "id": 9,
+                        "name": "catch_all_s"
+                    }
+                }
+            ],
+            "layerInfo": {
+                "id": 9,
+                "name": "catch_all_s",
+                "type": "Table",
+                "objectIdField": "objectid",
+                "globalIdField": "globalid",
+                "relationships": [
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 9,
+                        "keyField": "parentglobalid",
+                        "name": "Structure_Climb_Inspection_catch_all_s",
+                        "relatedTableId": 0,
+                        "role": "esriRelRoleDestination",
+                        "keyFieldInfo": {
+                            "alias": "ParentGlobalID",
+                            "defaultValue": null,
+                            "editable": true,
+                            "length": 38,
+                            "name": "parentglobalid",
+                            "nullable": true,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGUID"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "attachments": {
+                "adds": [
+                    {
+                        "uploadId": "e82c81a9a04c4c21ada814f478493b87",
+                        "globalId": "{CCF45112-30D3-4414-A8B8-DEB0EAFBC54F}",
+                        "parentGlobalId": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}",
+                        "name": "Hobbs_Del_Norte_other_appurtenance15_photo1_20250219-133512.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "other_app_photo",
+                        "size": 480968
+                    }
+                ]
+            },
+            "adds": [
+                {
+                    "attributes": {
+                        "oap_count": "2",
+                        "other_app_description": "Junction box.",
+                        "other_app_height": 15,
+                        "other_app_ice_shield_bin": "no",
+                        "other_app_location": "alpha",
+                        "other_app_location_monopole": null,
+                        "other_app_owner": "City of Hobbs",
+                        "other_notes": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}"
+                    },
+                    "attachments": {
+                        "other_app_photo": [
+                            {
+                                "globalId": "{CCF45112-30D3-4414-A8B8-DEB0EAFBC54F}",
+                                "parentGlobalId": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}",
+                                "name": "Hobbs_Del_Norte_other_appurtenance15_photo1_20250219-133512.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "other_app_photo",
+                                "size": 480968,
+                                "id": 7,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/6/34/attachments/7"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}",
+                        "objectId": 34,
+                        "success": true,
+                        "uniqueId": 34
+                    },
+                    "layerInfo": {
+                        "id": 6,
+                        "name": "other_app_s"
+                    }
+                }
+            ],
+            "layerInfo": {
+                "id": 6,
+                "name": "other_app_s",
+                "type": "Table",
+                "objectIdField": "objectid",
+                "globalIdField": "globalid",
+                "relationships": [
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 6,
+                        "keyField": "parentglobalid",
+                        "name": "Structure_Climb_Inspection_other_app_s",
+                        "relatedTableId": 0,
+                        "role": "esriRelRoleDestination",
+                        "keyFieldInfo": {
+                            "alias": "ParentGlobalID",
+                            "defaultValue": null,
+                            "editable": true,
+                            "length": 38,
+                            "name": "parentglobalid",
+                            "nullable": true,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGUID"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "attachments": {
+                "adds": [
+                    {
+                        "uploadId": "14db59fdf0a541dea9c2e17ff7122d4e",
+                        "globalId": "{83EA7E96-5EE2-4A45-B31C-03950C647C5D}",
+                        "parentGlobalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                        "name": "Hobbs_Del_Norte_tia_def_photo1_20250219-134627.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "tia_photo",
+                        "size": 557596
+                    },
+                    {
+                        "uploadId": "1255cf9975a0452b8afc0a75f733ad34",
+                        "globalId": "{0F89EA9E-E882-4D33-8EE9-6D415189A035}",
+                        "parentGlobalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                        "name": "Hobbs_Del_Norte_tia_def_photo2_20250219-134631.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "tia_photo",
+                        "size": 646739
+                    }
+                ]
+            },
+            "adds": [
+                {
+                    "attributes": {
+                        "tia_c7_change": null,
+                        "tia_c7_loop": null,
+                        "tia_context": null,
+                        "tia_def_identifier": "A",
+                        "tia_estimate_percent": null,
+                        "tia_height": 59,
+                        "tia_i3_crack_width": null,
+                        "tia_identifier_label": "Structure Condition",
+                        "tia_issue": "A1",
+                        "tia_issue_other": null,
+                        "tia_label": "Damaged structural member (leg / bracing)",
+                        "tia_level": null,
+                        "tia_location": "gamma",
+                        "tia_location_monopole": null,
+                        "tia_mb_diameter": null,
+                        "tia_mb_diameter_other": null,
+                        "tia_mb_grade": null,
+                        "tia_mb_grade_other": null,
+                        "tia_mb_length": null,
+                        "tia_member_height": null,
+                        "tia_member_ifw": null,
+                        "tia_member_is_bolted": "no",
+                        "tia_member_length": 29,
+                        "tia_member_ofw": null,
+                        "tia_member_pipe_diam": null,
+                        "tia_member_pipe_diam_other": null,
+                        "tia_member_plate_width": null,
+                        "tia_member_rod_diam": "0.625",
+                        "tia_member_tck": null,
+                        "tia_member_type": "rod",
+                        "tia_member_type_other": null,
+                        "tia_member_width": null,
+                        "tia_notes": "Bent member",
+                        "tia_severity": "1",
+                        "tia_whole": null,
+                        "tpp_count": "3",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}"
+                    },
+                    "attachments": {
+                        "tia_photo": [
+                            {
+                                "globalId": "{83EA7E96-5EE2-4A45-B31C-03950C647C5D}",
+                                "parentGlobalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                                "name": "Hobbs_Del_Norte_tia_def_photo1_20250219-134627.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "tia_photo",
+                                "size": 557596,
+                                "id": 215,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/7/109/attachments/215"
+                            },
+                            {
+                                "globalId": "{0F89EA9E-E882-4D33-8EE9-6D415189A035}",
+                                "parentGlobalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                                "name": "Hobbs_Del_Norte_tia_def_photo2_20250219-134631.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "tia_photo",
+                                "size": 646739,
+                                "id": 216,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/7/109/attachments/216"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                        "objectId": 109,
+                        "success": true,
+                        "uniqueId": 109
+                    },
+                    "layerInfo": {
+                        "id": 7,
+                        "name": "tia_info_s"
+                    }
+                }
+            ],
+            "layerInfo": {
+                "id": 7,
+                "name": "tia_info_s",
+                "type": "Table",
+                "objectIdField": "objectid",
+                "globalIdField": "globalid",
+                "relationships": [
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 7,
+                        "keyField": "parentglobalid",
+                        "name": "Structure_Climb_Inspection_tia_info_s",
+                        "relatedTableId": 0,
+                        "role": "esriRelRoleDestination",
+                        "keyFieldInfo": {
+                            "alias": "ParentGlobalID",
+                            "defaultValue": null,
+                            "editable": true,
+                            "length": 38,
+                            "name": "parentglobalid",
+                            "nullable": true,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGUID"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "adds": [
+                {
+                    "attributes": {
+                        "light_height": null,
+                        "light_location": null,
+                        "light_location_monopole": null,
+                        "light_notes": null,
+                        "lp_count": "1",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{C5B5B311-FF7E-478E-9466-12B834F3D63B}"
+                    },
+                    "result": {
+                        "globalId": "{C5B5B311-FF7E-478E-9466-12B834F3D63B}",
+                        "objectId": 35,
+                        "success": true,
+                        "uniqueId": 35
+                    },
+                    "layerInfo": {
+                        "id": 5,
+                        "name": "light_s"
+                    }
+                }
+            ],
+            "layerInfo": {
+                "id": 5,
+                "name": "light_s",
+                "type": "Table",
+                "objectIdField": "objectid",
+                "globalIdField": "globalid",
+                "relationships": [
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 5,
+                        "keyField": "parentglobalid",
+                        "name": "Structure_Climb_Inspection_light_s",
+                        "relatedTableId": 0,
+                        "role": "esriRelRoleDestination",
+                        "keyFieldInfo": {
+                            "alias": "ParentGlobalID",
+                            "defaultValue": null,
+                            "editable": true,
+                            "length": 38,
+                            "name": "parentglobalid",
+                            "nullable": true,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGUID"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "attachments": {
+                "adds": [
+                    {
+                        "uploadId": "d85dad3ac765446ebc667168cff50669",
+                        "globalId": "{2A5215FC-D594-44BB-8495-CF3B52B57ADF}",
+                        "parentGlobalId": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}",
+                        "name": "Hobbs_Del_Norte_ground_lead1_20250219-131551.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "ground_lead_photo",
+                        "size": 1581485
+                    },
+                    {
+                        "uploadId": "b34d414dd8a741fe93d9e0865d8054cc",
+                        "globalId": "{CDA3E042-7988-4D0C-919B-788285302132}",
+                        "parentGlobalId": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}",
+                        "name": "Hobbs_Del_Norte_ground_lead1_20250219-131641.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "ground_lead_photo",
+                        "size": 1202766
+                    },
+                    {
+                        "uploadId": "ce5a5f6d62314c12a263c5a1f5f86756",
+                        "globalId": "{DB9F4F56-56DF-4212-A612-E9A3BE425948}",
+                        "parentGlobalId": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}",
+                        "name": "Hobbs_Del_Norte_ground_lead1_20250219-131736.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "ground_lead_photo",
+                        "size": 1621478
+                    }
+                ]
+            },
+            "adds": [
+                {
+                    "attributes": {
+                        "glp_count": "2",
+                        "ground_lead_leg": "leg_a",
+                        "ground_lead_notes": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}"
+                    },
+                    "attachments": {
+                        "ground_lead_photo": [
+                            {
+                                "globalId": "{2A5215FC-D594-44BB-8495-CF3B52B57ADF}",
+                                "parentGlobalId": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}",
+                                "name": "Hobbs_Del_Norte_ground_lead1_20250219-131551.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ground_lead_photo",
+                                "size": 1581485,
+                                "id": 91,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/2/58/attachments/91"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}",
+                        "objectId": 58,
+                        "success": true,
+                        "uniqueId": 58
+                    },
+                    "layerInfo": {
+                        "id": 2,
+                        "name": "grounding_photos_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "glp_count": "2",
+                        "ground_lead_leg": "leg_b",
+                        "ground_lead_notes": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}"
+                    },
+                    "attachments": {
+                        "ground_lead_photo": [
+                            {
+                                "globalId": "{CDA3E042-7988-4D0C-919B-788285302132}",
+                                "parentGlobalId": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}",
+                                "name": "Hobbs_Del_Norte_ground_lead1_20250219-131641.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ground_lead_photo",
+                                "size": 1202766,
+                                "id": 92,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/2/59/attachments/92"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}",
+                        "objectId": 59,
+                        "success": true,
+                        "uniqueId": 59
+                    },
+                    "layerInfo": {
+                        "id": 2,
+                        "name": "grounding_photos_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "glp_count": "2",
+                        "ground_lead_leg": "leg_c",
+                        "ground_lead_notes": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}"
+                    },
+                    "attachments": {
+                        "ground_lead_photo": [
+                            {
+                                "globalId": "{DB9F4F56-56DF-4212-A612-E9A3BE425948}",
+                                "parentGlobalId": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}",
+                                "name": "Hobbs_Del_Norte_ground_lead1_20250219-131736.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "ground_lead_photo",
+                                "size": 1621478,
+                                "id": 93,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/2/60/attachments/93"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}",
+                        "objectId": 60,
+                        "success": true,
+                        "uniqueId": 60
+                    },
+                    "layerInfo": {
+                        "id": 2,
+                        "name": "grounding_photos_s"
+                    }
+                }
+            ],
+            "layerInfo": {
+                "id": 2,
+                "name": "grounding_photos_s",
+                "type": "Table",
+                "objectIdField": "objectid",
+                "globalIdField": "globalid",
+                "relationships": [
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 2,
+                        "keyField": "parentglobalid",
+                        "name": "Structure_Climb_Inspection_grounding_photos_s",
+                        "relatedTableId": 0,
+                        "role": "esriRelRoleDestination",
+                        "keyFieldInfo": {
+                            "alias": "ParentGlobalID",
+                            "defaultValue": null,
+                            "editable": true,
+                            "length": 38,
+                            "name": "parentglobalid",
+                            "nullable": true,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGUID"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 1,
+            "attachments": {
+                "adds": [
+                    {
+                        "uploadId": "cfe0dfb5aab8413fa0c56240295b2132",
+                        "globalId": "{20EAC53A-582B-4863-BC13-14C24BB106F1}",
+                        "parentGlobalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                        "name": "Hobbs_Del_Norte_leg_a_base_azimuth180_20250219-131533.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "base_front_ss_photo",
+                        "size": 1398376
+                    },
+                    {
+                        "uploadId": "2d4aa59340c7481fad50f8bfcce6a779",
+                        "globalId": "{0E461FB0-80EC-4DBE-9186-299FE96F3965}",
+                        "parentGlobalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                        "name": "Hobbs_Del_Norte_leg_a_base_azimuth0_20250219-131543.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "base_back_ss_photo",
+                        "size": 1616864
+                    },
+                    {
+                        "uploadId": "a272e7c6463147bb98ea69b6f72f9836",
+                        "globalId": "{3E51FD7C-1764-467C-996B-92FC7C69E202}",
+                        "parentGlobalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                        "name": "Hobbs_Del_Norte_leg_b_base_azimuth180_20250219-131618.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "base_front_ss_photo",
+                        "size": 1687012
+                    },
+                    {
+                        "uploadId": "50e39e8f1f034e0cb9c8e85b21aa15c2",
+                        "globalId": "{7E448C9E-FF72-4F53-9900-75A03C0FC7B1}",
+                        "parentGlobalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                        "name": "Hobbs_Del_Norte_leg_b_base_azimuth0_20250219-131624.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "base_back_ss_photo",
+                        "size": 1306734
+                    },
+                    {
+                        "uploadId": "ed8f547fba764d5d8b0fed91e276396f",
+                        "globalId": "{148FF33C-5743-4602-B570-BD637D262747}",
+                        "parentGlobalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                        "name": "Hobbs_Del_Norte_leg_c_base_azimuth180_20250219-131704.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "base_front_ss_photo",
+                        "size": 1109091
+                    },
+                    {
+                        "uploadId": "fecdade200344927985ee20b72bc9914",
+                        "globalId": "{DE9BD6F9-0178-44C4-AFB0-1CD47E7B8C07}",
+                        "parentGlobalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                        "name": "Hobbs_Del_Norte_leg_c_base_azimuth0_20250219-131710.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "base_back_ss_photo",
+                        "size": 1339157
+                    }
+                ]
+            },
+            "adds": [
+                {
+                    "attributes": {
+                        "base_leg_imaged": "leg_a",
+                        "base_ss_notes": null,
+                        "clear_distance_ss": null,
+                        "grout_bin_ss": "no",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}"
+                    },
+                    "attachments": {
+                        "base_front_ss_photo": [
+                            {
+                                "globalId": "{20EAC53A-582B-4863-BC13-14C24BB106F1}",
+                                "parentGlobalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                                "name": "Hobbs_Del_Norte_leg_a_base_azimuth180_20250219-131533.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_front_ss_photo",
+                                "size": 1398376,
+                                "id": 121,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/38/attachments/121"
+                            }
+                        ],
+                        "base_back_ss_photo": [
+                            {
+                                "globalId": "{0E461FB0-80EC-4DBE-9186-299FE96F3965}",
+                                "parentGlobalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                                "name": "Hobbs_Del_Norte_leg_a_base_azimuth0_20250219-131543.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_back_ss_photo",
+                                "size": 1616864,
+                                "id": 122,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/38/attachments/122"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                        "objectId": 38,
+                        "success": true,
+                        "uniqueId": 38
+                    },
+                    "layerInfo": {
+                        "id": 1,
+                        "name": "base_photos_ss_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "base_leg_imaged": "leg_b",
+                        "base_ss_notes": null,
+                        "clear_distance_ss": null,
+                        "grout_bin_ss": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{594E7691-8715-4137-8B18-D85070F5E978}"
+                    },
+                    "attachments": {
+                        "base_front_ss_photo": [
+                            {
+                                "globalId": "{3E51FD7C-1764-467C-996B-92FC7C69E202}",
+                                "parentGlobalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                                "name": "Hobbs_Del_Norte_leg_b_base_azimuth180_20250219-131618.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_front_ss_photo",
+                                "size": 1687012,
+                                "id": 123,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/39/attachments/123"
+                            }
+                        ],
+                        "base_back_ss_photo": [
+                            {
+                                "globalId": "{7E448C9E-FF72-4F53-9900-75A03C0FC7B1}",
+                                "parentGlobalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                                "name": "Hobbs_Del_Norte_leg_b_base_azimuth0_20250219-131624.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_back_ss_photo",
+                                "size": 1306734,
+                                "id": 124,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/39/attachments/124"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                        "objectId": 39,
+                        "success": true,
+                        "uniqueId": 39
+                    },
+                    "layerInfo": {
+                        "id": 1,
+                        "name": "base_photos_ss_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "base_leg_imaged": "leg_c",
+                        "base_ss_notes": null,
+                        "clear_distance_ss": null,
+                        "grout_bin_ss": null,
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{136F5098-8B41-40DC-B475-860E82B9DB7F}"
+                    },
+                    "attachments": {
+                        "base_front_ss_photo": [
+                            {
+                                "globalId": "{148FF33C-5743-4602-B570-BD637D262747}",
+                                "parentGlobalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                                "name": "Hobbs_Del_Norte_leg_c_base_azimuth180_20250219-131704.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_front_ss_photo",
+                                "size": 1109091,
+                                "id": 125,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/40/attachments/125"
+                            }
+                        ],
+                        "base_back_ss_photo": [
+                            {
+                                "globalId": "{DE9BD6F9-0178-44C4-AFB0-1CD47E7B8C07}",
+                                "parentGlobalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                                "name": "Hobbs_Del_Norte_leg_c_base_azimuth0_20250219-131710.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "base_back_ss_photo",
+                                "size": 1339157,
+                                "id": 126,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/1/40/attachments/126"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                        "objectId": 40,
+                        "success": true,
+                        "uniqueId": 40
+                    },
+                    "layerInfo": {
+                        "id": 1,
+                        "name": "base_photos_ss_s"
+                    }
+                }
+            ],
+            "layerInfo": {
+                "id": 1,
+                "name": "base_photos_ss_s",
+                "type": "Table",
+                "objectIdField": "objectid",
+                "globalIdField": "globalid",
+                "relationships": [
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 1,
+                        "keyField": "parentglobalid",
+                        "name": "Structure_Climb_Inspection_base_photos_ss_s",
+                        "relatedTableId": 0,
+                        "role": "esriRelRoleDestination",
+                        "keyFieldInfo": {
+                            "alias": "ParentGlobalID",
+                            "defaultValue": null,
+                            "editable": true,
+                            "length": 38,
+                            "name": "parentglobalid",
+                            "nullable": true,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGUID"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "attachments": {
+                "adds": [
+                    {
+                        "uploadId": "5bc0ba40959644dc8011cda8d8857831",
+                        "globalId": "{CFF8218E-27F2-43AD-84AE-02EB912DE897}",
+                        "parentGlobalId": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}",
+                        "name": "Hobbs_Del_Norte_mount_centerline55_other_panel1_20250219-134332.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "rs_photo",
+                        "size": 605904
+                    },
+                    {
+                        "uploadId": "8348cb6c3ff1406c95b524eedf5612d4",
+                        "globalId": "{EA3CCFED-BFB1-4B31-9BC0-322D03AA8E38}",
+                        "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                        "name": "Hobbs_Del_Norte_mount_centerline59_mount_photo1_20250219-134535.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "rs_mount_photo",
+                        "size": 839606
+                    },
+                    {
+                        "uploadId": "14366ee252af4c57935c5bfa006b59c3",
+                        "globalId": "{9163A00A-3840-48EB-80EA-08C06B56BCE2}",
+                        "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                        "name": "Hobbs_Del_Norte_mount_centerline59_mount_photo2_20250219-134539.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "rs_mount_photo",
+                        "size": 710145
+                    },
+                    {
+                        "uploadId": "118a6166e39c45c09a83d5ed3bb06529",
+                        "globalId": "{E26179A3-A442-40CD-9427-190804DB1575}",
+                        "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                        "name": "Hobbs_Del_Norte_mount_centerline59_panel1_20250219-134544.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "rs_photo",
+                        "size": 508143
+                    },
+                    {
+                        "uploadId": "ac9fea6a0b0b4af9801cab31a9b9431f",
+                        "globalId": "{956871F7-1B54-4342-A74A-A7FEEDC82BB8}",
+                        "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                        "name": "Hobbs_Del_Norte_mount_centerline59_panel2_20250219-134548.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "rs_photo",
+                        "size": 631758
+                    },
+                    {
+                        "uploadId": "f8fa99a24fa04fc7b750773b40da04eb",
+                        "globalId": "{33EE235C-F17D-4ACF-BACB-7CFFF990636C}",
+                        "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                        "name": "Hobbs_Del_Norte_mount_centerline59_equipment1_20250219-134605.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "rs_equipment_photo",
+                        "size": 542893
+                    },
+                    {
+                        "uploadId": "a69d54dd15394e97b3187480786e6287",
+                        "globalId": "{88F7BEBE-67AF-44E4-B322-D9C9C4D8C3FD}",
+                        "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                        "name": "Hobbs_Del_Norte_mount_centerline59_equipment2_20250219-134608.jpg",
+                        "contentType": "image/jpeg",
+                        "keywords": "rs_equipment_photo",
+                        "size": 610669
+                    }
+                ]
+            },
+            "adds": [
+                {
+                    "attributes": {
+                        "rs_coax_route": "leg_a",
+                        "rs_coax_route_monopole": null,
+                        "rs_coax_route_monopole_ext": null,
+                        "rs_equipment_bin": "no",
+                        "rs_equipment_notes": null,
+                        "rs_equipment_type_count": null,
+                        "rs_ice_shield": "no",
+                        "rs_location": "leg_b",
+                        "rs_location_monopole": null,
+                        "rs_mount_height": 55,
+                        "rs_mount_type": "direct",
+                        "rs_mount_type_other": null,
+                        "rs_notes": null,
+                        "rs_owner": "City of Hobbs",
+                        "rs_sector_mount_type": null,
+                        "rs_sector_mount_type_other": null,
+                        "rs_type": "other,panel",
+                        "rs_type_count": 1,
+                        "rsap_count": "2",
+                        "rseqp_count": null,
+                        "rsmp_count": "1",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}"
+                    },
+                    "attachments": {
+                        "rs_photo": [
+                            {
+                                "globalId": "{CFF8218E-27F2-43AD-84AE-02EB912DE897}",
+                                "parentGlobalId": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}",
+                                "name": "Hobbs_Del_Norte_mount_centerline55_other_panel1_20250219-134332.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_photo",
+                                "size": 605904,
+                                "id": 434,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/51/attachments/434"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}",
+                        "objectId": 51,
+                        "success": true,
+                        "uniqueId": 51
+                    },
+                    "layerInfo": {
+                        "id": 3,
+                        "name": "radiation_source_s"
+                    }
+                },
+                {
+                    "attributes": {
+                        "rs_coax_route": "leg_a",
+                        "rs_coax_route_monopole": null,
+                        "rs_coax_route_monopole_ext": null,
+                        "rs_equipment_bin": "yes",
+                        "rs_equipment_notes": null,
+                        "rs_equipment_type_count": 2,
+                        "rs_ice_shield": "no",
+                        "rs_location": "leg_a,leg_c",
+                        "rs_location_monopole": null,
+                        "rs_mount_height": 59,
+                        "rs_mount_type": "side_arm",
+                        "rs_mount_type_other": null,
+                        "rs_notes": null,
+                        "rs_owner": "City of Hobbs",
+                        "rs_sector_mount_type": null,
+                        "rs_sector_mount_type_other": null,
+                        "rs_type": "panel",
+                        "rs_type_count": 2,
+                        "rsap_count": "3",
+                        "rseqp_count": "3",
+                        "rsmp_count": "3",
+                        "parentglobalid": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                        "globalid": "{73567EBF-54B0-4B54-8453-824EC6F186FB}"
+                    },
+                    "attachments": {
+                        "rs_mount_photo": [
+                            {
+                                "globalId": "{EA3CCFED-BFB1-4B31-9BC0-322D03AA8E38}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_mount_photo1_20250219-134535.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_mount_photo",
+                                "size": 839606,
+                                "id": 435,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/435"
+                            },
+                            {
+                                "globalId": "{9163A00A-3840-48EB-80EA-08C06B56BCE2}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_mount_photo2_20250219-134539.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_mount_photo",
+                                "size": 710145,
+                                "id": 436,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/436"
+                            }
+                        ],
+                        "rs_photo": [
+                            {
+                                "globalId": "{E26179A3-A442-40CD-9427-190804DB1575}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_panel1_20250219-134544.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_photo",
+                                "size": 508143,
+                                "id": 437,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/437"
+                            },
+                            {
+                                "globalId": "{956871F7-1B54-4342-A74A-A7FEEDC82BB8}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_panel2_20250219-134548.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_photo",
+                                "size": 631758,
+                                "id": 438,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/438"
+                            }
+                        ],
+                        "rs_equipment_photo": [
+                            {
+                                "globalId": "{33EE235C-F17D-4ACF-BACB-7CFFF990636C}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_equipment1_20250219-134605.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_equipment_photo",
+                                "size": 542893,
+                                "id": 439,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/439"
+                            },
+                            {
+                                "globalId": "{88F7BEBE-67AF-44E4-B322-D9C9C4D8C3FD}",
+                                "parentGlobalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                                "name": "Hobbs_Del_Norte_mount_centerline59_equipment2_20250219-134608.jpg",
+                                "contentType": "image/jpeg",
+                                "keywords": "rs_equipment_photo",
+                                "size": 610669,
+                                "id": 440,
+                                "url": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer/3/52/attachments/440"
+                            }
+                        ]
+                    },
+                    "result": {
+                        "globalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                        "objectId": 52,
+                        "success": true,
+                        "uniqueId": 52
+                    },
+                    "layerInfo": {
+                        "id": 3,
+                        "name": "radiation_source_s"
+                    }
+                }
+            ],
+            "layerInfo": {
+                "id": 3,
+                "name": "radiation_source_s",
+                "type": "Table",
+                "objectIdField": "objectid",
+                "globalIdField": "globalid",
+                "relationships": [
+                    {
+                        "cardinality": "esriRelCardinalityOneToMany",
+                        "composite": true,
+                        "id": 3,
+                        "keyField": "parentglobalid",
+                        "name": "Structure_Climb_Inspection_radiation_source_s",
+                        "relatedTableId": 0,
+                        "role": "esriRelRoleDestination",
+                        "keyFieldInfo": {
+                            "alias": "ParentGlobalID",
+                            "defaultValue": null,
+                            "editable": true,
+                            "length": 38,
+                            "name": "parentglobalid",
+                            "nullable": true,
+                            "sqlType": "sqlTypeGUID",
+                            "type": "esriFieldTypeGUID"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "response": [
+        {
+            "addResults": [
+                {
+                    "globalId": "{FE94B909-41F6-4637-A41E-25DEBADAA22F}",
+                    "objectId": 32,
+                    "success": true,
+                    "uniqueId": 32
+                }
+            ],
+            "attachments": {
+                "addResults": [
+                    {
+                        "globalId": "{E5C5701C-B922-4508-8789-16289FB9CA36}",
+                        "objectId": 490,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{5FCF7F58-04BE-4124-B94D-47206067FD2F}",
+                        "objectId": 491,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{25351C49-DA35-4529-B924-A036249FC5A7}",
+                        "objectId": 492,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{1A00994D-313C-4191-B77D-7939CED85E01}",
+                        "objectId": 493,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{7779397B-AAE7-4D4F-BF20-81F1B638053D}",
+                        "objectId": 494,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{71FEEF11-819A-4C50-9064-033C0541CA42}",
+                        "objectId": 495,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{57450DE2-0A0E-4C2A-9960-A8692BD651D1}",
+                        "objectId": 496,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{A63855CC-899D-431A-B234-79BDC546585D}",
+                        "objectId": 497,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{9DA7B24D-AA48-4EA3-9CCF-F90118A15277}",
+                        "objectId": 498,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{5AA39DE5-C080-4D40-8106-6ADB0008E08C}",
+                        "objectId": 499,
+                        "success": true
+                    }
+                ],
+                "deleteResults": [],
+                "updateResults": []
+            },
+            "id": 0
+        },
+        {
+            "addResults": [
+                {
+                    "globalId": "{007C58B4-573F-4C55-A413-DA45628B9407}",
+                    "objectId": 35,
+                    "success": true,
+                    "uniqueId": 35
+                }
+            ],
+            "id": 9
+        },
+        {
+            "addResults": [
+                {
+                    "globalId": "{BCC807C5-EC90-4C04-B2AC-18E7684B8E01}",
+                    "objectId": 34,
+                    "success": true,
+                    "uniqueId": 34
+                }
+            ],
+            "attachments": {
+                "addResults": [
+                    {
+                        "globalId": "{CCF45112-30D3-4414-A8B8-DEB0EAFBC54F}",
+                        "objectId": 7,
+                        "success": true
+                    }
+                ],
+                "deleteResults": [],
+                "updateResults": []
+            },
+            "id": 6
+        },
+        {
+            "addResults": [
+                {
+                    "globalId": "{1A7C1A42-A6E0-4F03-A899-5EBE827FD162}",
+                    "objectId": 109,
+                    "success": true,
+                    "uniqueId": 109
+                }
+            ],
+            "attachments": {
+                "addResults": [
+                    {
+                        "globalId": "{83EA7E96-5EE2-4A45-B31C-03950C647C5D}",
+                        "objectId": 215,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{0F89EA9E-E882-4D33-8EE9-6D415189A035}",
+                        "objectId": 216,
+                        "success": true
+                    }
+                ],
+                "deleteResults": [],
+                "updateResults": []
+            },
+            "id": 7
+        },
+        {
+            "addResults": [
+                {
+                    "globalId": "{C5B5B311-FF7E-478E-9466-12B834F3D63B}",
+                    "objectId": 35,
+                    "success": true,
+                    "uniqueId": 35
+                }
+            ],
+            "id": 5
+        },
+        {
+            "addResults": [
+                {
+                    "globalId": "{BAE4C032-DCAF-4199-AFE4-C3CA79949A20}",
+                    "objectId": 58,
+                    "success": true,
+                    "uniqueId": 58
+                },
+                {
+                    "globalId": "{B48E5E30-99F0-40A0-BB16-BCDBBCB857A1}",
+                    "objectId": 59,
+                    "success": true,
+                    "uniqueId": 59
+                },
+                {
+                    "globalId": "{ADC82883-D216-4CCA-9075-9CBBAB9D5BD1}",
+                    "objectId": 60,
+                    "success": true,
+                    "uniqueId": 60
+                }
+            ],
+            "attachments": {
+                "addResults": [
+                    {
+                        "globalId": "{2A5215FC-D594-44BB-8495-CF3B52B57ADF}",
+                        "objectId": 91,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{CDA3E042-7988-4D0C-919B-788285302132}",
+                        "objectId": 92,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{DB9F4F56-56DF-4212-A612-E9A3BE425948}",
+                        "objectId": 93,
+                        "success": true
+                    }
+                ],
+                "deleteResults": [],
+                "updateResults": []
+            },
+            "id": 2
+        },
+        {
+            "addResults": [
+                {
+                    "globalId": "{C424A0FC-5FA2-4AD7-AC0C-C4C0E0A47292}",
+                    "objectId": 38,
+                    "success": true,
+                    "uniqueId": 38
+                },
+                {
+                    "globalId": "{594E7691-8715-4137-8B18-D85070F5E978}",
+                    "objectId": 39,
+                    "success": true,
+                    "uniqueId": 39
+                },
+                {
+                    "globalId": "{136F5098-8B41-40DC-B475-860E82B9DB7F}",
+                    "objectId": 40,
+                    "success": true,
+                    "uniqueId": 40
+                }
+            ],
+            "attachments": {
+                "addResults": [
+                    {
+                        "globalId": "{20EAC53A-582B-4863-BC13-14C24BB106F1}",
+                        "objectId": 121,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{0E461FB0-80EC-4DBE-9186-299FE96F3965}",
+                        "objectId": 122,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{3E51FD7C-1764-467C-996B-92FC7C69E202}",
+                        "objectId": 123,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{7E448C9E-FF72-4F53-9900-75A03C0FC7B1}",
+                        "objectId": 124,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{148FF33C-5743-4602-B570-BD637D262747}",
+                        "objectId": 125,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{DE9BD6F9-0178-44C4-AFB0-1CD47E7B8C07}",
+                        "objectId": 126,
+                        "success": true
+                    }
+                ],
+                "deleteResults": [],
+                "updateResults": []
+            },
+            "id": 1
+        },
+        {
+            "addResults": [
+                {
+                    "globalId": "{CA763FF7-68CF-4FB4-9F39-5E0FA0F0F662}",
+                    "objectId": 51,
+                    "success": true,
+                    "uniqueId": 51
+                },
+                {
+                    "globalId": "{73567EBF-54B0-4B54-8453-824EC6F186FB}",
+                    "objectId": 52,
+                    "success": true,
+                    "uniqueId": 52
+                }
+            ],
+            "attachments": {
+                "addResults": [
+                    {
+                        "globalId": "{CFF8218E-27F2-43AD-84AE-02EB912DE897}",
+                        "objectId": 434,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{EA3CCFED-BFB1-4B31-9BC0-322D03AA8E38}",
+                        "objectId": 435,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{9163A00A-3840-48EB-80EA-08C06B56BCE2}",
+                        "objectId": 436,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{E26179A3-A442-40CD-9427-190804DB1575}",
+                        "objectId": 437,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{956871F7-1B54-4342-A74A-A7FEEDC82BB8}",
+                        "objectId": 438,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{33EE235C-F17D-4ACF-BACB-7CFFF990636C}",
+                        "objectId": 439,
+                        "success": true
+                    },
+                    {
+                        "globalId": "{88F7BEBE-67AF-44E4-B322-D9C9C4D8C3FD}",
+                        "objectId": 440,
+                        "success": true
+                    }
+                ],
+                "deleteResults": [],
+                "updateResults": []
+            },
+            "id": 3
+        }
+    ],
+    "surveyInfo": {
+        "formItemId": "9ffa854460a84210be573cfb721ac437",
+        "formTitle": "Structure Climb Inspection",
+        "serviceItemId": "3ffcea6d83d84874b2e9105d0fa88989",
+        "serviceUrl": "https://services7.arcgis.com/nFe2NtXavo9MaB4G/arcgis/rest/services/service_691657be313e487f8f551af10479452f/FeatureServer"
+    },
+    "portalInfo": {
+        "url": "https://www.arcgis.com",
+        "token": "3NKHt6i2urmWtqOuugvr9TXeqiWm6d2oREPVCqqSId72FlN3_rwBfBzGaZyxj0Bsr-0bs8XUceqbuYih-55EXDRkd3maq0tVEZ4wTxNc-VkNVyoO7B_g4w4XgHQG0oXcAKuOmb6QpTszmwR1otVBS8cmKsXB3iEleAij-FBmUseYan9lebxD1imwitaINA_0Btlu5_3VFrp9PQo1-7Bfpc1yUhe1TdxJTo7eVbLCDrG3WVV42t39KwVdCPOWk1dx"
+    },
+    "userInfo": {
+        "username": "spencerconklin_mts",
+        "firstName": "Spencer",
+        "lastName": "Conklin",
+        "fullName": "Spencer Conklin",
+        "email": "Spencerc@murphytower.com"
+    }
+}

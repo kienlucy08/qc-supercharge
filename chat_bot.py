@@ -22,6 +22,14 @@ embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 # Chatbot methods
 # ---------------
 
+def query_required_fields(table):
+    df = table.to_pandas()
+    return df[df["required"] == True]
+
+def query_all_field_info(table):
+    df = table.to_pandas()
+    return df[["field_name", "expected_format", "field_category", "field_key_type", "required"]]
+
 def get_bot_instructions(table, limit=15):
     instruction_rows = (
         table.search(embedding_model.encode("bot_instruction").tolist())
@@ -147,7 +155,7 @@ def run_qc_chatbot():
             continue
 
         else:
-            print("❌ Invalid input. Please select a number from 1 to 5 or type 'exit'.")
+            print("Invalid input. Please select a number from 1 to 5 or type 'exit'.")
 
 # Main function
 if __name__ == "__main__":

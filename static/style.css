@@ -1,0 +1,352 @@
+/* ===============================
+   Global Base Styles
+================================== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(-45deg, #4338CA, #6366F1, #0F172A, #002832);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: #002832;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #F8FAFC;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* ===============================
+   Typography
+================================== */
+.custom-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #002832;
+    margin-bottom: 24px;
+    text-align: center;
+    padding: 18px 24px;
+    border-radius: 12px;
+    display: block;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4338CA;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+/* ===============================
+   Form Elements
+================================== */
+.entry-block {
+    margin-bottom: 20px;
+}
+
+.input-area {
+    width: 100%;
+    resize: vertical;
+    padding: 14px;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #F1F5F9;
+    color: #002832;
+    box-sizing: border-box;
+}
+
+/* Dropdowns for Type, Sprint, Module, etc. */
+.input-select {
+    width: 100%;
+    padding: 14px 18px;         
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #F1F5F9;
+    color: #002832;
+    appearance: none;              
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='10' viewBox='0 0 14 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%23002832' stroke-width='2' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.input-select-hidden {
+    width: 100%;
+    padding: 14px 18px;              
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #F1F5F9;
+    color: #002832;
+    appearance: none;             
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='10' viewBox='0 0 14 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%23002832' stroke-width='2' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+    box-sizing: border-box;
+    display: none;
+    cursor: pointer;
+}
+
+.input-rename {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #CBD5E1;
+    font-size: 14px;
+}
+
+/*Style the task checklist container*/
+.task-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.task-list li {
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  background-color: #f8fafc; /* subtle background */
+  border: 1px solid #cbd5e1; /* light border */
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+/* Style the checkbox itself */
+.task-list input[type="checkbox"] {
+  accent-color: #4338CA; /* Your brand blue */
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Highlight on hover */
+.task-list li:hover {
+  background-color: #e2e8f0;
+}
+
+.task-list label {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/* Container for radio options */
+.radio-group {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Style individual radio buttons */
+.radio-group input[type="radio"] {
+  margin-right: 8px;
+  accent-color: #4338CA; /* Optional: matches your color palette */
+  cursor: pointer;
+}
+
+/* Style the labels beside radio buttons */
+.radio-group label {
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.manual-task-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.extra-type {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #CBD5E1;
+}
+
+.extra-description {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #CBD5E1;
+}
+
+/* ===============================
+   Buttons
+================================== */
+.button-primary {
+    background-color: #4338CA;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background-color 0.2s ease;
+    position: relative;
+}
+
+.button-primary:hover {
+    background-color: #6366F1;
+}
+
+.button-secondary {
+    background-color: #E2E8F0;
+    color: #1E293B;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button-secondary:hover {
+    background-color: #CBD5E1;
+}
+
+.button-primary.loading::after {
+    content: "";
+    border: 3px solid #fff;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: spin 0.8s linear infinite;
+}
+
+.button-secondary.danger {
+    background-color: #F87171;
+    color: white;
+}
+
+.button-secondary.danger:hover {
+    background-color: #EF4444;
+}
+
+.button-third {
+    background-color: #E2E8F0;
+    color: #1E293B;
+    padding: 5px 5px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 200;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button-third:hover {
+    background-color: #CBD5E1;
+}
+
+/* ===============================
+   Spinners
+================================== */
+
+.spinner {
+    font-size: 16px;
+    color: #4338CA;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.spinner::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 2px solid #4338CA;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+}
+
+/* ===============================
+   Items and Output Display
+================================== */
+.item-card {
+    background-color: #F7FAFC;
+    border-left: 5px solid #4338CA;
+    padding: 14px 20px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.output-box {
+    background-color: #E0F2FE;
+    padding: 24px;
+    border-radius: 8px;
+    border-left: 6px solid #4338CA;
+    white-space: pre-wrap;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Warning badge */
+.badge-warning {
+    background-color: #FEF9C3; /* light yellow */
+    padding: 12px 16px;
+    border-radius: 8px;
+    border-left: 6px solid #F59E0B; /* amber-500 */
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 12px;
+}
+
+/* Success badge (green tint) */
+.badge-success {
+    background-color: #DCFCE7; /* light green */
+    padding: 12px 16px;
+    border-radius: 8px;
+    border-left: 6px solid #22C55E; /* green-500 */
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 12px;
+}
+
+/* ===============================
+   Animations
+================================== */
+@keyframes spin {
+    0% { transform: translateY(-50%) rotate(0deg); }
+    100% { transform: translateY(-50%) rotate(360deg); }
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

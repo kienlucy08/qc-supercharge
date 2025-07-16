@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>QC Assistant Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>QC Assistant Bot</h1>
+    <form method="POST">
+        <label for="question">Select a question:</label>
+        <select name="question" required>
+            {% for key, q in questions.items() %}
+                <option value="{{ key }}" {% if selected == key %}selected{% endif %}>{{ key }}. {{ q }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if answer %}
+        <h2>Answer</h2>
+        <p style="white-space: pre-wrap;">{{ answer }}</p>
+    {% endif %}
+
+    <p><a href="{{ url_for('index') }}">Upload a new file</a></p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>QC JSON Upload</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Upload Your QC JSON File</h1>
+    {% if uploaded %}
+        <p>✅ File uploaded successfully!</p>
+        <a href="{{ url_for('chat') }}">Go to Chat</a>
+    {% else %}
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".json" required>
+            <button type="submit">Upload</button>
+        </form>
+    {% endif %}
+</body>
+</html>
+
