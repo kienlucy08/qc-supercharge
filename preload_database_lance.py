@@ -77,7 +77,8 @@ def create_or_reset_collection(db_path="./lancedb", collection_name="qc_field_ru
                 "required": False,
                 "field_key_type": "",
                 "was_null": False,
-                "vector": [0.0] * embedding_model.get_sentence_embedding_dimension()
+                "vector": [0.0] * embedding_model.get_sentence_embedding_dimension(),
+                "raw_payload": ""
             }
         ],
         mode="overwrite"
@@ -105,7 +106,7 @@ def preload_fields_from_json(table, json_source):
     seen = set()
 
     for path, value in flat_fields:
-        if path in seen:
+        if path in seen or path.startswith("applyEdits"):
             continue
         seen.add(path)
 
@@ -124,8 +125,12 @@ def preload_fields_from_json(table, json_source):
             "acceptable_values": "",
             "required": False,
             "field_key_type": key_type,
-            "was_null": value is None,
-            "vector": embedding_model.encode(f"{path} {fmt}").tolist()
+            "was_null": (
+                value is None or 
+                (isinstance(value, str) and value.strip().lower() in ["null", "none", "n/a", "na", "", "unknown"])
+            ),
+            "vector": embedding_model.encode(f"{path} {fmt}").tolist(),
+            "raw_payload": json.dumps(data[0])
         })
 
     expected_fields = {"attributes.site_visit_datetime", "attributes.customer", "geometry"}
@@ -145,7 +150,8 @@ def preload_fields_from_json(table, json_source):
             "required": True,
             "field_key_type": "required",
             "was_null": False,
-            "vector": embedding_model.encode(f"{m} missing").tolist()
+            "vector": embedding_model.encode(f"{m} missing").tolist(),
+            "raw_payload": json.dumps(data[0])
         })
 
     if rows:
@@ -163,9 +169,15 @@ def load_bot_instructions(table):
         "Categorize fields by their expected data type: text, number, boolean, or timestamp.",
         "If a question is unclear, respond with a clarifying question.",
         "Let the user know if a specific field is not recognized in the schema.",
-        "Always use natural, professional, and helpful tone.",
+        "Always use a natural, professional, and helpful tone.",
         "Prioritize fields with 'high' priority_level during QA sessions.",
-        "Only return information that is defined in the validation schema."
+        "Only return information that is defined in the validation schema.",
+        "The user no longer types open-ended messages. Instead, they select from predefined numbered questions (1–5).",
+        "Here are the questions the user can select from:\n"
+        "1. Show all fields with null or placeholder values\n"
+        "2. What required fields are missing from this payload?\n"
+        "3. List all expected fields with their types and categories\n"
+        "4. Summarize potential data quality issues"
     ]
 
     rows = [
@@ -181,7 +193,8 @@ def load_bot_instructions(table):
             "required": False,
             "field_key_type": "instruction",
             "was_null": False,
-            "vector": embedding_model.encode(msg).tolist()
+            "vector": embedding_model.encode(msg).tolist(),
+            "raw_payload": ""
         } for msg in instructions
     ]
 

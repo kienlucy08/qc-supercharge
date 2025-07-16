@@ -12,7 +12,7 @@ import pandas as pd
 from openai import OpenAI
 import lancedb
 from sentence_transformers import SentenceTransformer
-from query_database import get_field_value_from_json, find_null_like_fields_from_table, find_null_like_fields, connect_to_collection, query_collection
+from query_database import get_field_value_from_json, query_nullable_fields, query_required_missing_fields, connect_to_collection, query_collection
 
 # Initialize clients
 client = OpenAI()
@@ -61,7 +61,7 @@ def summarize_with_gpt(user_query, results_df, instructions):
 
 def introduction(table):
     instructions = get_bot_instructions(table)
-    prompt = "Introduce yourself as a QC assistant."
+    prompt = "Introduce yourself as a QC assistant. Provide the questions the user can choose from."
     context = "\n".join([f"- {line}" for line in instructions])
     full_prompt = f"{context}\n{prompt}"
     response = client.chat.completions.create(
@@ -70,7 +70,7 @@ def introduction(table):
         temperature=0.4,
         max_tokens=300
     )
-    print(f"QC Assistant Bot: {response.choices[0].message.content.strip()}")
+    print(f"\nQC Assistant Bot: {response.choices[0].message.content.strip()}")
 
 def conclude():
     print("\nQC Assistant Bot: Thanks for chatting. Good luck with your inspections! 🛠️")
@@ -93,17 +93,20 @@ def run_qc_chatbot():
             conclude()
             break
 
-        if "null values" in user_input.lower() or "fields that are null" in user_input.lower():
-            results_df = find_null_like_fields_from_table(table)
-            if not results_df:
-                print("QC Assistant Bot: I couldn't find any fields with null values.")
+        # Shared instruction set
+        bot_instructions = get_bot_instructions(table)
+
+        if user_input == "1":
+            results_df = query_nullable_fields(table)
+            if results_df.empty:
+                print("\nQC Assistant Bot: I couldn't find any fields with null values.")
             else:
-                print("\nQC Assistant Bot: Based on the schema, these fields contain null values:")
-                for path in results_df:
-                    print(f"{path} - {row['field_name']}")
+                prompt = "List and explain all fields that have null or missing values in the schema."
+                answer = summarize_with_gpt(prompt, results_df, bot_instructions)
+                print(f"\nQC Assistant Bot: {answer}")
             continue
 
-        if "value" in user_input.lower() or "what is" in user_input.lower():
+        elif user_input == "2":
             # Try to extract field name from input
             for row in results_df.itertuples():
                 if row.field_name:
@@ -113,15 +116,38 @@ def run_qc_chatbot():
                     break
             continue
 
-        results_df = query_collection(table, user_input)
-        if results_df.empty:
-            print("QC Assistant Bot: Sorry, I couldn't find anything related to that question. Try asking about a specific field.")
+        elif user_input == "3":
+            missing_df = query_required_missing_fields(table)
+            if missing_df.empty:
+                print("\nQC Assistant Bot: I couldn't find any fields with null values.")
+            else:
+                prompt = "Which required fields are missing from the current payload?"
+                answer = summarize_with_gpt(prompt, missing_df, bot_instructions)
+                print(f"\nQC Assistant Bot: {answer}")
             continue
 
-        answer = summarize_with_gpt(user_input, results_df, get_bot_instructions(table))
-        print(f"\nQC Assistant Bot: {answer}")
-        context.append(user_input)
-        context.append(answer)
+        elif user_input == "4":
+            summary_df = table.to_pandas()
+            if summary_df.empty:
+                print("\nQC Assistant Bot: I couldn't find any fields with null values.")
+            else:
+                prompt = "List all fields and summarize their expected data types and categories."
+                answer = summarize_with_gpt(prompt, summary_df, bot_instructions)
+                print(f"\nQC Assistant Bot: {answer}")
+            continue
+
+        elif user_input == "5":
+            results_df = table.to_pandas()
+            if results_df.empty:
+                print("\nQC Assistant Bot: I couldn't find any fields with null values.")
+            else:
+                prompt = "Summarize any potential data quality issues in this inspection form data."
+                answer = summarize_with_gpt(prompt, results_df, bot_instructions)
+                print(f"\nQC Assistant Bot: {answer}")
+            continue
+
+        else:
+            print("❌ Invalid input. Please select a number from 1 to 5 or type 'exit'.")
 
 # Main function
 if __name__ == "__main__":

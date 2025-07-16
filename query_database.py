@@ -10,6 +10,7 @@ from sentence_transformers import SentenceTransformer
 import pandas as pd
 from openai import OpenAI
 import os
+import json
 # Load the embedding model
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 client = OpenAI()
@@ -68,11 +69,27 @@ def query_nullable_fields(table):
     # Filter fields where expected_format is 'null' or field_name includes 'nullable'
     null_df = df[
         (df["expected_format"].str.lower() == "null") |
-        (df["was_null"] == True) | 
-        (df["expected_format"].str.lower() == "Null")
+        (df["was_null"] == True)
+    ]
+    return null_df
+
+def query_required_missing_fields(table):
+    """
+    Returns a DataFrame of required fields that are missing from the raw_payload.
+    These are defined by:
+    - required == True
+    - validation_type == 'missing_check'
+    """
+    df = table.to_pandas()
+
+    # Filter required fields that have missing validation
+    missing_df = df[
+        (df["required"] == True) &
+        (df["validation_type"] == "missing_check")
     ]
 
-    return null_df
+    return missing_df[["field_name", "bot_response"]]
+
 
 def find_null_like_fields(obj, path=""):
     null_like_keys = []
@@ -95,28 +112,22 @@ def find_null_like_fields(obj, path=""):
 
     return null_like_keys
 
+
 def find_null_like_fields_from_table(table, payload_field="raw_payload"):
-    """
-    Scan a LanceDB table for fields with values that are null-like (None, 'null', 'Null', 'NULL').
-
-    Parameters:
-        - table (LanceTable): The LanceDB table to search.
-        - payload_field (str): The field containing the JSON payload (default is 'raw_payload').
-
-    Returns:
-        - List[str]: Paths to all null-like fields found across all rows.
-    """
     df = table.to_pandas()
     if payload_field not in df.columns:
         print(f"⚠️ Column '{payload_field}' not found in table.")
         return []
 
     null_like_paths = []
-
     for i, row in df.iterrows():
-        payload = row[payload_field]
-        paths = find_null_like_fields(payload)
-        null_like_paths.extend(paths)
+        try:
+            payload = json.loads(row[payload_field])
+            paths = find_null_like_fields(payload)
+            null_like_paths.extend(paths)
+        except Exception as e:
+            print(f"⚠️ Error parsing JSON in row {i}: {e}")
+            continue
 
     return sorted(set(null_like_paths))
 
@@ -126,7 +137,7 @@ def main():
     query = input("Ask a question about QC field rules (type 'show nulls' to list nullable fields): ")
 
     if query.lower() == "show nulls":
-        results = find_null_like_fields(table)
+        results = query_nullable_fields(table)
         print("\n🔍 Fields allowing null or marked as nullable:")
         for idx, row in results.iterrows():
             print(f"\nResult {idx + 1}:")
