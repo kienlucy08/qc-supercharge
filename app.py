@@ -15,6 +15,12 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 # Global table
 table = None
 
+@app.before_request
+def clear_session_on_first_visit():
+    if "visited" not in session:
+        session.clear()
+        session["visited"] = True
+
 @app.route("/", methods=["GET", "POST"])
 def index():
     global table
@@ -29,6 +35,7 @@ def index():
             # Save the uploaded filename to session
             session["filename"] = file.filename
             session[SESSION_KEY] = filepath
+            session["uploaded"] = True
 
             # Preload database
             table = create_or_reset_collection()
@@ -39,7 +46,7 @@ def index():
 
             return redirect(url_for("chat"))
 
-    return render_template("index.html", uploaded=session.get(SESSION_KEY, False), filename=session.get("filename"))
+    return render_template("index.html", uploaded=session.get("uploaded"), filename=session.get("filename"))
 
 @app.route("/chat", methods=["GET", "POST"])
 def chat():
