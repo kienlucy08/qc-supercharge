@@ -12,8 +12,17 @@
         {% if uploaded %}
             <div class="badge-success">
                 File uploaded successfully!
+                {% if filename %}
+                    <p style="margin-top: 8px;"><strong>File:</strong> {{ filename }}</p>
+                {% endif %}
             </div>
             <a href="{{ url_for('chat') }}" class="button-primary">Go to Chat</a>
+            <form method="POST" enctype="multipart/form-data" style="display: inline;">
+                <label for="file-input" class="button-secondary" style="cursor: pointer;">
+                    Replace File
+                </label>
+                <input type="file" id="file-input" name="file" accept=".json" required onchange="this.form.submit()" style="display: none;">
+            </form>
         {% else %}
             <form method="POST" enctype="multipart/form-data">
                 <div class="entry-block">

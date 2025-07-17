@@ -9,8 +9,11 @@
     <div class="container">
         <h1 class="custom-title">QC Assistant Bot</h1>
 
-        <form method="POST">
+        <form method="POST" onsubmit="showLoading()">
             <div class="entry-block">
+                {% if filename %}
+                    <p style="margin-bottom: 20px;"><strong>Active File:</strong> {{ filename }}</p>
+                {% endif %}
                 <label for="question" class="section-title">Select a Question:</label>
                 <select name="question" id="question" class="input-select" required>
                     {% for key, q in questions.items() %}
@@ -21,7 +24,7 @@
                 </select>
             </div>
 
-            <button type="submit" class="button-primary">Ask</button>
+            <button type="submit" class="button-primary" id="ask-btn">Ask</button>
         </form>
 
         {% if answer %}
@@ -35,5 +38,13 @@
             <a href="{{ url_for('index') }}" class="button-secondary">⬅ Upload a New File</a>
         </div>
     </div>
+    <script>
+        function showLoading() {
+            const button = document.getElementById("ask-btn");
+            button.disabled = true;
+            button.classList.add("loading");
+            button.textContent = "Thinking...";
+        }
+    </script>
 </body>
 </html>

@@ -1,6 +1,11 @@
 /* ===============================
    Global Base Styles
 ================================== */
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
 body {
     font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(-45deg, #4338CA, #6366F1, #0F172A, #002832);

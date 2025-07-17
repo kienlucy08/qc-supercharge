@@ -26,16 +26,20 @@ def index():
             filepath = os.path.join(UPLOAD_FOLDER, f"{uuid.uuid4()}.json")
             file.save(filepath)
 
+            # Save the uploaded filename to session
+            session["filename"] = file.filename
+            session[SESSION_KEY] = filepath
+
             # Preload database
             table = create_or_reset_collection()
             with open(filepath, "r") as f:
                 payload = json.load(f)
                 preload_fields_from_json(table, payload)
                 load_bot_instructions(table)
-            session[SESSION_KEY] = filepath
+
             return redirect(url_for("chat"))
 
-    return render_template("index.html", uploaded=session.get(SESSION_KEY, False))
+    return render_template("index.html", uploaded=session.get(SESSION_KEY, False), filename=session.get("filename"))
 
 @app.route("/chat", methods=["GET", "POST"])
 def chat():
@@ -82,5 +86,5 @@ def chat():
                 combined = nulls._append(missing, ignore_index=True)
                 answer = summarize_with_gpt(questions[selected], combined, instructions)
 
-    return render_template("chat.html", uploaded=True, questions=questions, selected=selected, answer=answer)
+    return render_template("chat.html", uploaded=True, questions=questions, selected=selected, answer=answer, filename=session.get("filename"))
 
