@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>QC Assistant Bot</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>QC Assistant Bot</h1>
-    <form method="POST">
-        <label for="question">Select a question:</label>
-        <select name="question" required>
-            {% for key, q in questions.items() %}
-                <option value="{{ key }}" {% if selected == key %}selected{% endif %}>{{ key }}. {{ q }}</option>
-            {% endfor %}
-        </select>
-        <button type="submit">Ask</button>
-    </form>
+    <div class="container">
+        <h1 class="custom-title">QC Assistant Bot</h1>
 
-    {% if answer %}
-        <h2>Answer</h2>
-        <p style="white-space: pre-wrap;">{{ answer }}</p>
-    {% endif %}
+        <form method="POST">
+            <div class="entry-block">
+                <label for="question" class="section-title">Select a Question:</label>
+                <select name="question" id="question" class="input-select" required>
+                    {% for key, q in questions.items() %}
+                        <option value="{{ key }}" {% if selected == key %}selected{% endif %}>
+                            {{ key }}. {{ q }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
 
-    <p><a href="{{ url_for('index') }}">Upload a new file</a></p>
+            <button type="submit" class="button-primary">Ask</button>
+        </form>
+
+        {% if answer %}
+            <div class="output-box" style="margin-top: 24px;">
+                <h2 class="section-title">Answer</h2>
+                <p>{{ answer }}</p>
+            </div>
+        {% endif %}
+
+        <div style="margin-top: 32px;">
+            <a href="{{ url_for('index') }}" class="button-secondary">⬅ Upload a New File</a>
+        </div>
+    </div>
 </body>
 </html>

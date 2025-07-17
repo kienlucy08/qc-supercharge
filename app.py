@@ -9,6 +9,7 @@ from chat_bot import summarize_with_gpt, query_nullable_fields, query_required_f
 app = Flask(__name__, static_folder="static")
 app.secret_key = os.getenv("APP_KEY")
 UPLOAD_FOLDER = 'uploaded'
+SESSION_KEY = os.getenv("SESSION_KEY", "uploaded_file")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Global table
@@ -31,12 +32,10 @@ def index():
                 payload = json.load(f)
                 preload_fields_from_json(table, payload)
                 load_bot_instructions(table)
-
-            session["uploaded"] = True
-            session["uploaded"] = filepath
+            session[SESSION_KEY] = filepath
             return redirect(url_for("chat"))
 
-    return render_template("index.html", uploaded=session.get("uploaded", False))
+    return render_template("index.html", uploaded=session.get(SESSION_KEY, False))
 
 @app.route("/chat", methods=["GET", "POST"])
 def chat():
@@ -53,8 +52,8 @@ def chat():
     selected = ""
 
     # Rebuild table if not available (e.g., on fresh request)
-    if not table and "uploaded_file" in session:
-        filepath = session["uploaded_file"]
+    if not table and SESSION_KEY in session:
+        filepath = session[SESSION_KEY]
         table = create_or_reset_collection()
         with open(filepath, "r") as f:
             payload = json.load(f)
@@ -65,7 +64,7 @@ def chat():
         selected = request.form.get("question")
 
         if not table:
-            answer = "⚠️ No JSON has been uploaded yet."
+            answer = "No JSON has been uploaded yet."
         else:
             instructions = get_bot_instructions(table)
             if selected == "1":

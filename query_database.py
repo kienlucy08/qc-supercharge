@@ -90,47 +90,6 @@ def query_required_missing_fields(table):
 
     return missing_df[["field_name", "bot_response"]]
 
-
-def find_null_like_fields(obj, path=""):
-    null_like_keys = []
-
-    print(f"\n🔍 DEBUG: Traversing {type(obj)} at path: {path}")
-
-    if isinstance(obj, dict):
-        for key, value in obj.items():
-            new_path = f"{path}.{key}" if path else key
-            if value in [None, "null", "Null", "NULL"]:
-                null_like_keys.append(new_path)
-            else:
-                null_like_keys.extend(find_null_like_fields(value, new_path))
-    elif isinstance(obj, list):
-        for idx, item in enumerate(obj):
-            new_path = f"{path}[{idx}]"
-            null_like_keys.extend(find_null_like_fields(item, new_path))
-    else:
-        print(f"⚠️  Skipping unexpected type at {path}: {type(obj)}")
-
-    return null_like_keys
-
-
-def find_null_like_fields_from_table(table, payload_field="raw_payload"):
-    df = table.to_pandas()
-    if payload_field not in df.columns:
-        print(f"⚠️ Column '{payload_field}' not found in table.")
-        return []
-
-    null_like_paths = []
-    for i, row in df.iterrows():
-        try:
-            payload = json.loads(row[payload_field])
-            paths = find_null_like_fields(payload)
-            null_like_paths.extend(paths)
-        except Exception as e:
-            print(f"⚠️ Error parsing JSON in row {i}: {e}")
-            continue
-
-    return sorted(set(null_like_paths))
-
 def main():
     table = connect_to_collection()
 

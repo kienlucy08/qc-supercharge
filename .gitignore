@@ -2,3 +2,4 @@
 .env
 lancedb*/
 __pycache__
+uploaded/

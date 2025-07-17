@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>QC JSON Upload</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Upload Your QC JSON File</h1>
-    {% if uploaded %}
-        <p>✅ File uploaded successfully!</p>
-        <a href="{{ url_for('chat') }}">Go to Chat</a>
-    {% else %}
-        <form method="POST" enctype="multipart/form-data">
-            <input type="file" name="file" accept=".json" required>
-            <button type="submit">Upload</button>
-        </form>
-    {% endif %}
+    <div class="container">
+        <h1 class="custom-title">Upload Your QC JSON File</h1>
+
+        {% if uploaded %}
+            <div class="badge-success">
+                File uploaded successfully!
+            </div>
+            <a href="{{ url_for('chat') }}" class="button-primary">Go to Chat</a>
+        {% else %}
+            <form method="POST" enctype="multipart/form-data">
+                <div class="entry-block">
+                    <label for="file" class="section-title">Choose a JSON File</label>
+                    <input class="input-area" type="file" name="file" id="file" accept=".json" required>
+                </div>
+                <button type="submit" class="button-primary">Upload</button>
+            </form>
+        {% endif %}
+    </div>
 </body>
 </html>
+
 

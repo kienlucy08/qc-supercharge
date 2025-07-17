@@ -28,7 +28,7 @@ def query_required_fields(table):
 
 def query_all_field_info(table):
     df = table.to_pandas()
-    return df[["field_name", "expected_format", "field_category", "field_key_type", "required"]]
+    return df[["field_name", "expected_format", "field_category", "field_key_type", "required", "bot_response"]]
 
 def get_bot_instructions(table, limit=15):
     instruction_rows = (
